@@ -2,7 +2,7 @@
   "id": "pride-fighting-academy-class-schedule-mckriel",
   "name": "Pride Fighting Academy",
   "short_name": "PFA",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Class schedule for Pride Fighting Academy",
   
   "author": "Matthew Kriel",
@@ -15,7 +15,7 @@
   
   "theme_color": "#374151",
   "background_color": "#374151",
-  "display": "fullscreen",
+  "display": "standalone",
   "display_override": ["window-controls-overlay"],
   "orientation": "portrait",
   "scope": "/pfa/",
@@ -31,12 +31,6 @@
     {
       "src": "/static/pfa/pfa-app-logo.png",
       "sizes": "160x160",
-      "type": "image/png",
-      "purpose": "maskable"
-    },
-    {
-      "src": "/static/pfa/pfa-splash.png",
-      "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
     }
