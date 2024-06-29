@@ -1,4 +1,4 @@
-const CACHE_NAME = 'V1.1.0';
+const CACHE_NAME = 'V2.0.0';
 const CACHE_URLS = [
     '/',
     '/pfa',
