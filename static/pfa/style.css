@@ -1,0 +1,80 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+#id_day_of_week {
+    width: 290px;
+    height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding-left: 20px;
+    box-shadow: 0 1px 5px rgb(255 255 255 / 0.3);
+    border-radius: 5px;
+    background-color: rgb(75 85 99);
+    border: 1px solid rgb(241 245 249);;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between; /* Distribute space evenly */
+    width: 100%; /* Ensure the buttons take up the full width of the parent container */
+}
+
+.category-button {
+    flex: 1; /* Each button takes up an equal amount of space */
+    margin: 0 2px; /* Optional: add some space between buttons */
+    padding: 2px; /* Optional: add padding to buttons for better appearance */
+    text-align: center;
+    color: white; /* Customize the text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Optional: add rounded corners */
+    cursor: pointer; /* Change cursor to pointer for better UX */
+    
+}
+
+.category-button:hover {
+    background-color: #2D3748; /* Darken the button color on hover */
+}
+
+.category-button.selected {
+    background-color: rgb(75 85 99); /* Color for the selected button */
+    border: 1px solid rgb(241 245 249);
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: inherit; /* match the background color of the section */
+}
+
+.scrollable-content {
+    margin-top: 205px; /* height of the fixed top section */
+    height: calc(100vh - 200px);
+    overflow-y: auto;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1f2937; /* Tailwind's bg-gray-800 */
+    color: white;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+footer a {
+    color: #60a5fa; /* Tailwind's text-blue-400 */
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}

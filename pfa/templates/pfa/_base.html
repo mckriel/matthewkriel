@@ -1,0 +1,50 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- google analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MVNHQR13BZ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-MVNHQR13BZ');
+    </script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <link rel="icon" href="{% static 'pfa/favicon.ico' %}" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- style sheet -->
+    <link rel="stylesheet" type="text/css" href="{% static 'pfa/style.css' %}" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- manifest file -->
+    <link rel="manifest" href="{% static 'pfa/manifest.json' %}">
+    <!-- page title -->
+    <title>Pride Fighting Academy</title>
+    <meta name="theme-color" content="#374151"/>
+</head>
+<!-- body -->
+<body class="bg-gray-700 text-center uppercase h-screen">
+    <div class="w-full flex justify-center">
+        <!-- app outer boundary -->
+        <div class="min-w-96 max-w-md">
+            {% block content %}
+            {% endblock content %}
+        </div>
+    </div>
+    <!-- register the service worker -->
+    <script>
+        if (!navigator.serviceWorker.controller) {
+            navigator.serviceWorker.register("/static/pfa/serviceworker.js").then(function(reg) {
+                console.log("Service worker has been registered for scope: " + reg.scope);
+            });
+        }
+    </script>
+</body>
+</html>
