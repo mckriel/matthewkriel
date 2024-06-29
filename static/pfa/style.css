@@ -56,10 +56,17 @@ body {
 }
 
 .scrollable-content {
+    position: relative;
     margin-top: 205px; /* height of the fixed top section */
-    height: calc(100vh - 200px);
+    height: calc(100vh - 205px); /* Adjusted to match margin-top */
     overflow-y: auto;
-    z-index: 1;
+    z-index: 0; /* Set to 0 to allow proper layering */
+    pointer-events: none; /* allows clicks to fall through */
+}
+
+/* Ensure that the scrollable area scrolls underneath the fixed content */
+.fixed-top + .scrollable-content {
+    pointer-events: auto;
 }
 
 footer {
