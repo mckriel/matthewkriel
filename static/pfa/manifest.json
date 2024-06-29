@@ -33,12 +33,6 @@
       "sizes": "160x160",
       "type": "image/png",
       "purpose": "maskable"
-    },
-    {
-      "src": "/static/pfa/pfa-splash.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
     }
   ]
 }
