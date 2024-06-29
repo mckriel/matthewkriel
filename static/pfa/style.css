@@ -59,6 +59,7 @@ body {
     margin-top: 205px; /* height of the fixed top section */
     height: calc(100vh - 200px);
     overflow-y: auto;
+    z-index: 1;
 }
 
 footer {
