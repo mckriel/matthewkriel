@@ -64,6 +64,10 @@ body {
     pointer-events: none; /* allows clicks to fall through */
 }
 
+.scrollable-content::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+}
+
 /* Ensure that the scrollable area scrolls underneath the fixed content */
 .fixed-top + .scrollable-content {
     pointer-events: auto;
