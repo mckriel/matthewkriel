@@ -15,15 +15,15 @@
             <img src="{% static 'pfa/pfa-logo.png' %}" alt="pfa-logo">
         </div>
         <!-- day picker section -->
-        <div class="flex justify-center py-2 text-gray-100">
+        <div class="flex justify-center py-2 text-gray-100 text-sm">
             <form method="POST" id="filterForm" class="day-picker font-semibold">
                 {% csrf_token %}
                 {{ day_form.day_of_week }}
                 <input type="hidden" id="id_category" name="category" value="{{ selected_category }}">
                 <div class="button-group pt-2 pb-2">
                     <button type="button" class="category-button" data-category="all">ALL</button>
-                    <button type="button" class="category-button" data-category="striking">STANDUP</button>
-                    <button type="button" class="category-button" data-category="grappling">GROUND</button>
+                    <button type="button" class="category-button" data-category="striking">STRIKING</button>
+                    <button type="button" class="category-button" data-category="grappling">GRAPPLING</button>
                 </div>
             </form>
         </div>
