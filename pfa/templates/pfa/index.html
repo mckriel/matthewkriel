@@ -15,7 +15,7 @@
             <img src="{% static 'pfa/pfa-logo.png' %}" alt="pfa-logo">
         </div>
         <!-- day picker section -->
-        <div class="flex justify-center py-2 text-gray-100 text-sm">
+        <div class="flex justify-center text-gray-100 text-sm">
             <form method="POST" id="filterForm" class="day-picker font-semibold">
                 {% csrf_token %}
                 {{ day_form.day_of_week }}

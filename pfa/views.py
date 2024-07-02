@@ -9,7 +9,6 @@ def fitness_class_view(request):
 	class_list = ClassInstance.objects.all()
 	selected_day = None
 	selected_category = 'all'
-	# selected_category = None
 	
 	current_day = timezone.now().weekday() + 1
 	

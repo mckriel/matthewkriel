@@ -57,8 +57,8 @@ body {
 
 .scrollable-content {
     position: relative;
-    margin-top: 205px; /* height of the fixed top section */
-    height: calc(100vh - 205px); /* Adjusted to match margin-top */
+    margin-top: 195px; /* height of the fixed top section */
+    height: calc(100vh - 195px); /* Adjusted to match margin-top */
     overflow-y: auto;
     z-index: 0; /* Set to 0 to allow proper layering */
     pointer-events: none; /* allows clicks to fall through */
