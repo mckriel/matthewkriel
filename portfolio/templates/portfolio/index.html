@@ -4,24 +4,24 @@
 {% block content %}
     <!-- main page-->
     <div class="flex items-center justify-center w-full h-full">
-        <!-- main block -->
-        <div class="w-auto flex flex-col place-content-center overflow-hidden">
-            <!-- name and location -->
-            <div class="">
-                <h1 class="px-4 text-6xl font-normal flex justify-center text-slate-800">Matthew Kriel</h1>
-                <h2 class="py-2 text-xl font-light w-auto flex justify-center text-slate-800">📍 Cape Town, South Africa</h2>
-            </div>
-            <!-- socials-->
-            <div class="py-5 w-auto flex justify-center">
-                <div class="grid grid-cols-5 gap-3">
-                    <a class="w-8 hover:opacity-70" href="https://www.instagram.com/mckriel/" target="_blank"><img src="{% static 'portfolio/instagram.png' %}"></a>
-                    <a class="w-8 hover:opacity-70" href="https://www.github.com/mckriel/" target="_blank"><img src="{% static 'portfolio/github.png' %}"></a>
-                    <a class="w-8 hover:opacity-70" href="https://www.linkedin.com/in/mckriel/" target="_blank"><img src="{% static 'portfolio/linkedin.png' %}"></a>
-                    <a class="w-8 hover:opacity-70" href="https://drive.google.com/drive/folders/1VZuNpEygPZ0v0_WiB4Yt0axBaoXUA5T4?usp=sharing" target="_blank"><img src="{% static '/portfolio/cv.png' %}"></a>
-                    <a class="w-8 hover:opacity-70" href="https://www.credly.com/users/matthew-kriel/badges" target="_blank"><img src="{% static '/portfolio/cert.png' %}"></a>
+        <div class="main-content">
+            <!-- main block -->
+            <div class="w-auto flex flex-col place-content-center overflow-hidden">
+                <!-- name and location -->
+                <div class="">
+                    <h1 class="px-4 text-6xl font-normal flex justify-center text-slate-800">Matthew Kriel</h1>
+                    <h2 class="py-2 text-xl font-light w-auto flex justify-center text-slate-800">📍 Cape Town, South Africa</h2>
+                </div>
+                <!-- socials-->
+                <div class="py-5 w-auto flex justify-center">
+                    <div class="grid grid-cols-4 gap-3">
+                        <a class="w-8 hover:opacity-70" href="https://www.instagram.com/mckriel/" target="_blank"><img src="{% static 'portfolio/instagram.png' %}"></a>
+                        <a class="w-8 hover:opacity-70" href="https://www.github.com/mckriel/" target="_blank"><img src="{% static 'portfolio/github.png' %}"></a>
+                        <a class="w-8 hover:opacity-70" href="https://www.linkedin.com/in/mckriel/" target="_blank"><img src="{% static 'portfolio/linkedin.png' %}"></a>
+                        <a class="w-8 hover:opacity-70" href="https://drive.google.com/drive/folders/1VZuNpEygPZ0v0_WiB4Yt0axBaoXUA5T4?usp=sharing" target="_blank"><img src="{% static '/portfolio/cv.png' %}"></a>
+                    </div>
                 </div>
             </div>
-            
         </div>
     </div>
     
