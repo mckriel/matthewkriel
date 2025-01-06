@@ -1,29 +1,71 @@
-{% extends 'portfolio/_base.html' %}
 {% load static %}
 
-{% block content %}
-    <!-- main page-->
-    <div class="flex items-center justify-center w-full h-full">
-        <div class="main-content">
-            <!-- main block -->
-            <div class="w-auto flex flex-col place-content-center overflow-hidden">
-                <!-- name and location -->
-                <div class="">
-                    <h1 class="px-4 text-6xl font-normal flex justify-center text-slate-800">Matthew Kriel</h1>
-                    <h2 class="py-2 text-xl font-light w-auto flex justify-center text-slate-800">📍 Cape Town, South Africa</h2>
-                </div>
-                <!-- socials-->
-                <div class="py-5 w-auto flex justify-center">
-                    <div class="grid grid-cols-5 gap-3">
-                        <a class="w-8 hover:opacity-70" href="https://www.instagram.com/mckriel/" target="_blank"><img src="{% static 'portfolio/instagram.png' %}"></a>
-                        <a class="w-8 hover:opacity-70" href="https://www.github.com/mckriel/" target="_blank"><img src="{% static 'portfolio/github.png' %}"></a>
-                        <a class="w-8 hover:opacity-70" href="https://www.linkedin.com/in/mckriel/" target="_blank"><img src="{% static 'portfolio/linkedin.png' %}"></a>
-                        <a class="w-8 hover:opacity-70" href="https://drive.google.com/drive/folders/1VZuNpEygPZ0v0_WiB4Yt0axBaoXUA5T4?usp=sharing" target="_blank"><img src="{% static '/portfolio/cv.png' %}"></a>
-                        <a class="w-8 hover:opacity-70" href="https://mckriel.wistia.com/medias/9egf8vst6p" target="_blank"><img src="{% static '/portfolio/video.png' %}"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-{% endblock content %}
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-MVNHQR13BZ"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+	
+			gtag('config', 'G-MVNHQR13BZ');
+		</script>
+		<!-- End Google tag (gtag.js) -->
+		 
+		<title>Matthew Kriel</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="shortcut icon" type="image/png" href="{% static 'portfolio/fav-dark.png' %}" >
+		<link rel="stylesheet" href="{% static 'portfolio/assets/css/main.css' %}" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+	</head>
+	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+
+				<!-- Header -->
+					<header id="header">
+						<div>
+							<h1>Matthew Kriel</h1>
+							<h2>Software Engineer</h2>
+							<p>📍 Cape Town - South Africa</p>
+						</div>
+						<div>
+							<nav>
+								<ul>
+									<li><a href="https://github.com/mckriel" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+									<li><a href="https://www.linkedin.com/in/mckriel/" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://drive.google.com/drive/folders/1VZuNpEygPZ0v0_WiB4Yt0axBaoXUA5T4?usp=sharing" class="icon solid fa-file-alt" target="_blank"><span class="label">Documents</span></a></li>
+								</ul>
+							</nav>
+						</div>
+						<projects>
+							<h3>My Projects</h3>
+							<ul>
+								<li><a href="/pfa" target="_blank">PFA</a></li>
+								<li><a href="https://thesociableapp.com/" target="_blank">Sociable</a></li>
+								<li><a href="https://onemoregame.app/" target="_blank">OMG</a></li>
+							</ul>
+						</projects>
+						
+						
+					</header>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p>&copy; Matthew Kriel. All rights reserved.</p>
+					</footer>
+
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
+</html>
