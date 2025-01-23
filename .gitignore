@@ -20,3 +20,6 @@ env/
 .env
 idea/
 .sln
+
+
+db.json
