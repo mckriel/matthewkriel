@@ -22,5 +22,5 @@ idea/
 .sln
 
 
-db.json
-db.sqlite3
+# db.json
+# db.sqlite3
