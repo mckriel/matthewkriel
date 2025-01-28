@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-l-*o3kf@(w*(kubg(2y(3)_m@dnoxt$e*b0c6kd@)@lbgr-82y'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     # Local apps
     'portfolio',
     'pfa',
+    'pokedex',
 ]
 
 MIDDLEWARE = [
