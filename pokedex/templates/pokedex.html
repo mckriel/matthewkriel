@@ -7,15 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokédex</title>
     <style>
-        /* Base styling */
+        /* Dark mode base styles */
         body {
             font-family: 'Arial', sans-serif;
-            background: #ffffff;
+            background: #1a1a1a;  /* Dark background */
+            color: #ffffff;       /* White text */
             margin: 0;
             padding: 2rem;
+            background: #121212;  /* Almost black */
+            color: white;
         }
 
-        /* Grid layout for cards */
+        /* Grid layout */
         .pokedex-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -25,31 +28,41 @@
 
         /* Card styling */
         .pokemon-card {
-            background: white;
+            background: #2d2d2d;  /* Dark card background */
             border-radius: 12px;
             padding: 1rem;
             text-align: center;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);  /* Darker shadow */
             transition: transform 0.2s;
+            border: 1px solid #404040;  /* Subtle border */
+            background: rgba(255, 255, 255, 0.1);  /* Semi-transparent white overlay */
+            backdrop-filter: blur(5px);  /* Frosted glass effect */
+            border: 1px solid rgba(255, 255, 255, 0.1);
         }
 
         .pokemon-card:hover {
             transform: translateY(-5px);
         }
 
-        /* Image sizing */
+        /* Image styling */
         .pokemon-card img {
             width: 150px;
             height: 150px;
             object-fit: contain;
+            filter: brightness(0.95);  /* Slightly dim images for dark mode */
         }
+
+        /* Type tint opacity (darker background) */
+        .pokemon-card[style*="fire"] { --tint-opacity: 0.5; }
+        .pokemon-card[style*="water"] { --tint-opacity: 0.5; }
+        /* Add for all types */
     </style>
 </head>
 <body>
-    <h1 style="text-align: center; color: #333;">Matt's Pokedex</h1>
+    <h1 style="text-align: center; color: #ffffff;">Matt's Pokedex</h1>
     <div class="pokedex-grid">
         {% for pokemon in pokemon_data %}
-        <div class="pokemon-card" style="background: rgba({{ pokemon.types.0|color_tint }}, var(--tint-opacity, 0.1))">
+        <div class="pokemon-card" style="background: rgba({{ pokemon.types.0|color_tint }}, var(--tint-opacity, 0.8))">
             <img src="{{ pokemon.image_url }}" alt="{{ pokemon.name }}" loading="lazy">
             <h3>#{{ pokemon.id }} {{ pokemon.name|title }}</h3>
             <p>{{ pokemon.types|join:", " }}</p>

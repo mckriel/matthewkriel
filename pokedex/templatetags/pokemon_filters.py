@@ -3,24 +3,24 @@ from django import template
 register = template.Library()
 
 TYPE_COLORS = {
-    "fire": "255, 180, 142",      # Brighter Light Salmon (Fire)
-    "water": "155, 226, 255",     # Brighter Sky Blue (Water)
-    "grass": "172, 271, 172",     # Brighter Pale Green (Grass)
-    "electric": "255, 255, 50",   # Brighter Yellow (Electric)
-    "psychic": "255, 125, 200",   # Brighter Pink (Psychic)
-    "ice": "193, 236, 250",       # Brighter Light Blue (Ice)
-    "dragon": "158, 63, 246",     # Brighter Blue Violet (Dragon)
-    "dark": "132, 148, 164",      # Brighter Slate Gray (Dark)
-    "fairy": "255, 202, 213",     # Brighter Light Pink (Fairy)
-    "normal": "231, 231, 231",    # Brighter Light Gray (Normal)
-    "fighting": "225, 112, 112",  # Brighter Indian Red (Fighting)
-    "flying": "155, 226, 270",    # Brighter Light Sky Blue (Flying)
-    "poison": "167, 132, 239",    # Brighter Medium Purple (Poison)
-    "ground": "230, 200, 160",    # Brighter Tan (Ground)
-    "rock": "204, 154, 31",       # Brighter Dark Goldenrod (Rock)
-    "bug": "174, 225, 70",        # Brighter Yellow Green (Bug)
-    "ghost": "95, 20, 150",       # Brighter Indigo (Ghost)
-    "steel": "212, 212, 212",     # Brighter Silver (Steel)
+    "normal": "168, 168, 120",  # Keep subtle for balance
+"fire": "255, 107, 107",    # Bright red
+"water": "78, 205, 196",   # Turquoise
+"electric": "255, 217, 61",# Neon yellow
+"grass": "108, 190, 71",   # Lime green
+"ice": "126, 232, 250",     # Bright cyan
+"fighting": "255, 94, 94",# Intense red
+"poison": "200, 107, 250",  # Electric purple
+"ground": "230, 177, 67",  # Golden yellow
+"flying": "137, 196, 244",  # Sky blue
+"psychic": "255, 119, 168", # Hot pink
+"bug": "163, 198, 57",     # Acid green
+"rock": "197, 168, 128",    # Warm sand
+"ghost": "155, 89, 182",   # Vivid purple
+"dragon": "108, 92, 231",  # Royal blue
+"dark": "90, 90, 90",    # Dark gray (kept subtle)
+"steel": "180, 180, 180",   # Silver
+"fairy": "255, 181, 232",   # Bright pink
 }
 
 @register.filter
