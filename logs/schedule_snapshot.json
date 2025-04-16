@@ -1,0 +1,345 @@
+{
+  "16": {
+    "training_class": "Brazilian Jiu Jitsu (No Gi)",
+    "weekday": "1",
+    "start_time": "17:30:00",
+    "end_time": "19:00:00",
+    "updated": "2024-05-29T11:21:20.967502+00:00"
+  },
+  "17": {
+    "training_class": "Brazilian Jiu Jitsu (Gi)",
+    "weekday": "1",
+    "start_time": "12:30:00",
+    "end_time": "14:00:00",
+    "updated": "2024-05-29T11:32:01.123282+00:00"
+  },
+  "19": {
+    "training_class": "Boxing",
+    "weekday": "1",
+    "start_time": "06:00:00",
+    "end_time": "07:00:00",
+    "updated": "2024-06-29T10:04:12.145471+00:00"
+  },
+  "20": {
+    "training_class": "Beginners MMA",
+    "weekday": "1",
+    "start_time": "06:00:00",
+    "end_time": "07:00:00",
+    "updated": "2024-06-29T10:04:27.502424+00:00"
+  },
+  "21": {
+    "training_class": "Boxing",
+    "weekday": "1",
+    "start_time": "12:30:00",
+    "end_time": "13:30:00",
+    "updated": "2024-06-29T10:05:04.854928+00:00"
+  },
+  "22": {
+    "training_class": "Kids MMA",
+    "weekday": "1",
+    "start_time": "15:30:00",
+    "end_time": "16:15:00",
+    "updated": "2024-06-29T10:05:23.673563+00:00"
+  },
+  "23": {
+    "training_class": "Ladies Kickboxing",
+    "weekday": "1",
+    "start_time": "16:30:00",
+    "end_time": "17:30:00",
+    "updated": "2024-06-29T10:05:41.881218+00:00"
+  },
+  "24": {
+    "training_class": "Muay Thai",
+    "weekday": "1",
+    "start_time": "18:00:00",
+    "end_time": "19:00:00",
+    "updated": "2024-06-29T10:06:01.319912+00:00"
+  },
+  "25": {
+    "training_class": "Boxing",
+    "weekday": "1",
+    "start_time": "19:00:00",
+    "end_time": "20:00:00",
+    "updated": "2024-06-29T10:06:15.404973+00:00"
+  },
+  "26": {
+    "training_class": "Wrestling (MMA)",
+    "weekday": "1",
+    "start_time": "19:00:00",
+    "end_time": "20:00:00",
+    "updated": "2024-06-29T10:06:29.305250+00:00"
+  },
+  "27": {
+    "training_class": "Brazilian Jiu Jitsu (No Gi)",
+    "weekday": "2",
+    "start_time": "06:00:00",
+    "end_time": "07:00:00",
+    "updated": "2024-06-29T10:20:31.297192+00:00"
+  },
+  "28": {
+    "training_class": "Muay Thai",
+    "weekday": "2",
+    "start_time": "06:00:00",
+    "end_time": "07:00:00",
+    "updated": "2024-06-29T10:20:47.434127+00:00"
+  },
+  "29": {
+    "training_class": "Brazilian Jiu Jitsu (No Gi)",
+    "weekday": "2",
+    "start_time": "12:30:00",
+    "end_time": "14:00:00",
+    "updated": "2024-06-29T10:21:08.594549+00:00"
+  },
+  "30": {
+    "training_class": "Boxing",
+    "weekday": "2",
+    "start_time": "12:30:00",
+    "end_time": "13:00:00",
+    "updated": "2024-06-29T10:21:20.912146+00:00"
+  },
+  "31": {
+    "training_class": "Kids BJJ",
+    "weekday": "2",
+    "start_time": "15:30:00",
+    "end_time": "16:15:00",
+    "updated": "2024-06-29T10:22:17.570267+00:00"
+  },
+  "32": {
+    "training_class": "Beginners BJJ",
+    "weekday": "2",
+    "start_time": "16:30:00",
+    "end_time": "17:30:00",
+    "updated": "2024-06-29T10:23:04.501014+00:00"
+  },
+  "33": {
+    "training_class": "Brazilian Jiu Jitsu (Gi)",
+    "weekday": "2",
+    "start_time": "17:30:00",
+    "end_time": "19:00:00",
+    "updated": "2024-06-29T10:24:34.517744+00:00"
+  },
+  "34": {
+    "training_class": "Boxing",
+    "weekday": "2",
+    "start_time": "18:00:00",
+    "end_time": "19:00:00",
+    "updated": "2024-06-29T10:24:52.157084+00:00"
+  },
+  "35": {
+    "training_class": "Sparring",
+    "weekday": "2",
+    "start_time": "19:00:00",
+    "end_time": "20:00:00",
+    "updated": "2024-06-29T10:25:24.207721+00:00"
+  },
+  "36": {
+    "training_class": "Boxing",
+    "weekday": "3",
+    "start_time": "06:00:00",
+    "end_time": "07:00:00",
+    "updated": "2024-06-29T10:26:06.338022+00:00"
+  },
+  "37": {
+    "training_class": "Beginners MMA",
+    "weekday": "3",
+    "start_time": "06:00:00",
+    "end_time": "07:00:00",
+    "updated": "2024-06-29T10:26:23.685237+00:00"
+  },
+  "38": {
+    "training_class": "Brazilian Jiu Jitsu (Gi)",
+    "weekday": "3",
+    "start_time": "12:30:00",
+    "end_time": "14:00:00",
+    "updated": "2024-06-29T10:26:41.291816+00:00"
+  },
+  "39": {
+    "training_class": "Boxing",
+    "weekday": "3",
+    "start_time": "12:30:00",
+    "end_time": "13:30:00",
+    "updated": "2024-06-29T10:26:52.454885+00:00"
+  },
+  "40": {
+    "training_class": "Kids MMA",
+    "weekday": "3",
+    "start_time": "15:30:00",
+    "end_time": "16:15:00",
+    "updated": "2024-06-29T10:27:03.920889+00:00"
+  },
+  "41": {
+    "training_class": "Ladies Kickboxing",
+    "weekday": "3",
+    "start_time": "16:30:00",
+    "end_time": "17:30:00",
+    "updated": "2024-06-29T10:27:25.171416+00:00"
+  },
+  "42": {
+    "training_class": "Brazilian Jiu Jitsu (No Gi)",
+    "weekday": "3",
+    "start_time": "17:30:00",
+    "end_time": "19:00:00",
+    "updated": "2024-06-29T10:27:42.891505+00:00"
+  },
+  "43": {
+    "training_class": "Muay Thai",
+    "weekday": "3",
+    "start_time": "18:00:00",
+    "end_time": "19:00:00",
+    "updated": "2024-06-29T10:28:01.081655+00:00"
+  },
+  "44": {
+    "training_class": "Advanced MMA",
+    "weekday": "3",
+    "start_time": "19:00:00",
+    "end_time": "20:00:00",
+    "updated": "2024-06-29T10:28:37.083871+00:00"
+  },
+  "45": {
+    "training_class": "Boxing",
+    "weekday": "3",
+    "start_time": "19:00:00",
+    "end_time": "20:00:00",
+    "updated": "2024-06-29T10:28:48.587642+00:00"
+  },
+  "46": {
+    "training_class": "Muay Thai",
+    "weekday": "4",
+    "start_time": "06:00:00",
+    "end_time": "07:00:00",
+    "updated": "2024-06-29T10:40:13.502638+00:00"
+  },
+  "47": {
+    "training_class": "Brazilian Jiu Jitsu (No Gi)",
+    "weekday": "4",
+    "start_time": "06:00:00",
+    "end_time": "07:00:00",
+    "updated": "2024-06-29T10:40:30.601158+00:00"
+  },
+  "48": {
+    "training_class": "Brazilian Jiu Jitsu (No Gi)",
+    "weekday": "4",
+    "start_time": "12:30:00",
+    "end_time": "14:00:00",
+    "updated": "2024-06-29T10:40:42.900603+00:00"
+  },
+  "49": {
+    "training_class": "Boxing",
+    "weekday": "4",
+    "start_time": "12:30:00",
+    "end_time": "13:30:00",
+    "updated": "2024-06-29T10:40:57.886521+00:00"
+  },
+  "50": {
+    "training_class": "Kids BJJ",
+    "weekday": "4",
+    "start_time": "15:30:00",
+    "end_time": "16:15:00",
+    "updated": "2024-06-29T10:41:20.039707+00:00"
+  },
+  "51": {
+    "training_class": "Beginners BJJ",
+    "weekday": "4",
+    "start_time": "16:30:00",
+    "end_time": "17:30:00",
+    "updated": "2024-06-29T10:41:59.998147+00:00"
+  },
+  "52": {
+    "training_class": "Brazilian Jiu Jitsu (Gi)",
+    "weekday": "4",
+    "start_time": "17:30:00",
+    "end_time": "19:00:00",
+    "updated": "2024-06-29T10:42:19.681443+00:00"
+  },
+  "53": {
+    "training_class": "Boxing",
+    "weekday": "4",
+    "start_time": "18:00:00",
+    "end_time": "19:00:00",
+    "updated": "2024-06-29T10:42:34.638091+00:00"
+  },
+  "54": {
+    "training_class": "Wrestling (MMA)",
+    "weekday": "4",
+    "start_time": "19:00:00",
+    "end_time": "20:00:00",
+    "updated": "2024-06-29T10:42:49.858540+00:00"
+  },
+  "55": {
+    "training_class": "Advanced MMA",
+    "weekday": "5",
+    "start_time": "06:00:00",
+    "end_time": "07:00:00",
+    "updated": "2024-06-29T10:43:16.321201+00:00"
+  },
+  "56": {
+    "training_class": "Brazilian Jiu Jitsu (Gi)",
+    "weekday": "5",
+    "start_time": "12:30:00",
+    "end_time": "14:00:00",
+    "updated": "2024-06-29T10:43:32.477213+00:00"
+  },
+  "57": {
+    "training_class": "Boxing",
+    "weekday": "5",
+    "start_time": "12:30:00",
+    "end_time": "13:30:00",
+    "updated": "2024-06-29T10:43:43.274065+00:00"
+  },
+  "58": {
+    "training_class": "Brazilian Jiu Jitsu (No Gi)",
+    "weekday": "5",
+    "start_time": "17:30:00",
+    "end_time": "19:00:00",
+    "updated": "2024-06-29T10:43:57.646395+00:00"
+  },
+  "59": {
+    "training_class": "Boxing",
+    "weekday": "5",
+    "start_time": "18:00:00",
+    "end_time": "19:00:00",
+    "updated": "2024-06-29T10:44:09.537323+00:00"
+  },
+  "60": {
+    "training_class": "Yoga",
+    "weekday": "6",
+    "start_time": "08:00:00",
+    "end_time": "08:45:00",
+    "updated": "2024-06-29T10:44:50.757738+00:00"
+  },
+  "61": {
+    "training_class": "Muay Thai",
+    "weekday": "6",
+    "start_time": "09:00:00",
+    "end_time": "10:00:00",
+    "updated": "2024-06-29T10:45:05.007779+00:00"
+  },
+  "62": {
+    "training_class": "Beginners BJJ",
+    "weekday": "6",
+    "start_time": "09:00:00",
+    "end_time": "10:00:00",
+    "updated": "2024-06-29T10:45:21.403215+00:00"
+  },
+  "63": {
+    "training_class": "Boxing",
+    "weekday": "6",
+    "start_time": "10:00:00",
+    "end_time": "11:00:00",
+    "updated": "2024-06-29T10:45:37.304666+00:00"
+  },
+  "64": {
+    "training_class": "Sparring",
+    "weekday": "6",
+    "start_time": "10:00:00",
+    "end_time": "10:45:00",
+    "updated": "2024-06-29T10:45:53.159431+00:00"
+  },
+  "65": {
+    "training_class": "BJJ Open Mat",
+    "weekday": "6",
+    "start_time": "10:45:00",
+    "end_time": "12:00:00",
+    "updated": "2024-06-29T10:47:01.498825+00:00"
+  }
+}
