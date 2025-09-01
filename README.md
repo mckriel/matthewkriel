@@ -1,44 +1,76 @@
-# Schedule Monitoring System
+# Matthew Kriel - Portfolio Website
 
-This system provides detailed logging for class schedule changes, which should help identify the cause of schedule reverts.
+A modern, responsive portfolio website showcasing my experience as a Senior Software Engineer. Built with Django and featuring a clean monochrome design with dark mode support.
 
-## Key Features
+## Features
 
-1. **Comprehensive Logging**: Every change to class schedules is now logged to files in the 'logs' directory
-2. **Middleware Logging**: All requests, responses, and database operations for the PFA app are logged
-3. **Model Change Tracking**: Django signals track every create/update/delete operation
-4. **Admin Action Logging**: Admin panel actions now include detailed logs
-5. **Schedule Snapshot Tool**: A management command can detect unauthorized schedule changes
+- **Modern Design**: Clean, contemporary UI with monochrome color scheme
+- **Dark Mode**: Toggle between light and dark themes
+- **Responsive Layout**: Optimized for desktop and mobile devices
+- **Profile Sections**: About, Technical Skills, Work Experience, Featured Projects
+- **Contact Integration**: Direct links to social profiles and resume
 
-## Usage Instructions
+## Tech Stack
 
-### Monitoring Logs
+- **Backend**: Django 4.2.17
+- **Frontend**: Modern CSS with custom properties, Font Awesome icons
+- **Typography**: Plus Jakarta Sans font family
+- **Deployment**: Configured for production with Gunicorn and WhiteNoise
 
-Log files are stored in the 'logs' directory:
-- pfa.log - All PFA app actions
-- db_operations.log - Database operations
-- admin_actions.log - Admin user actions
+## Getting Started
 
-### Detecting Schedule Changes
+### Prerequisites
+- Python 3.8+
+- pip
 
-Run the following command to detect any unauthorized changes:
+### Installation
 
-Running schedule change detection...
-No previous snapshot found. Creating initial snapshot.
-Schedule snapshot saved
+1. Clone the repository
+```bash
+git clone https://github.com/mckriel/matthewkriel.git
+cd matthewkriel
+```
 
-This will compare current schedules with the previous snapshot and report differences.
+2. Create and activate virtual environment
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
-### Checking Recently Modified Classes
+3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
 
-To see which classes were modified in the last few days:
+4. Collect static files
+```bash
+python manage.py collectstatic
+```
 
-No classes have been modified in the last 7 days.
+5. Run the development server
+```bash
+python manage.py runserver
+```
 
-## Troubleshooting
+Visit `http://127.0.0.1:8000` to view the portfolio.
 
-If you notice schedule reverts:
-1. Check the logs for any unexpected changes
-2. Look for patterns in admin_actions.log that might indicate another admin making changes
-3. Review db_operations.log for any automated operations affecting the schedules
-4. Check system cron jobs or scheduled tasks that might be running database backups/restores
+## Project Structure
+
+- `portfolio/` - Main Django app containing views and templates
+- `static/portfolio/assets/` - CSS, JavaScript, and image files
+- `pfa/` - Pride Fighting Academy PWA sub-application
+- `staticfiles/` - Collected static files for production
+
+## Deployment
+
+The project is configured for production deployment with:
+- Gunicorn WSGI server
+- WhiteNoise for static file serving
+- Environment-based settings
+
+## Contact
+
+- **Email**: mckriel@gmail.com
+- **LinkedIn**: [linkedin.com/in/mckriel](https://www.linkedin.com/in/mckriel/)
+- **GitHub**: [github.com/mckriel](https://github.com/mckriel)
+- **Location**: Cape Town, South Africa
