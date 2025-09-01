@@ -1,0 +1,569 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="description" content="Matthew Kriel - Senior Software Engineer with 6+ years of backend development experience and 10+ years of technical product management. Specialized in JavaScript, TypeScript, Go, Python, Node.js, and Django.">
+    <meta name="keywords" content="Software Engineer, Backend Developer, Full Stack, Django, Node.js, TypeScript, Cape Town">
+    <meta name="author" content="Matthew Kriel">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.matthewkriel.com/">
+    <meta property="og:title" content="Matthew Kriel | Senior Software Engineer">
+    <meta property="og:description" content="Backend-focused Senior Software Engineer with over a decade of experience. I build reliable systems and write clean, maintainable code.">
+    <meta property="og:image" content="{% static 'portfolio/assets/images/profile.jpg' %}">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.matthewkriel.com/">
+    <meta property="twitter:title" content="Matthew Kriel | Senior Software Engineer">
+    <meta property="twitter:description" content="Backend-focused Senior Software Engineer with over a decade of experience.">
+
+    <title>Matthew Kriel | Senior Software Engineer | Cape Town, South Africa</title>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="{% static 'portfolio/fav-dark.png' %}">
+    
+    <!-- Preload Important Resources -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" as="style">
+    <link rel="preload" href="{% static 'portfolio/assets/images/profile-new.jpg' %}" as="image" type="image/jpeg">
+    
+    <!-- Stylesheets -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'portfolio/assets/css/modern.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MVNHQR13BZ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-MVNHQR13BZ');
+    </script>
+</head>
+
+<body>
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-indicator"></div>
+    
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="flex items-center">
+                <a href="#hero" class="text-xl font-bold text-primary">MK</a>
+            </div>
+            
+            <div class="nav-links">
+                <a href="#hero" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            
+            <div class="flex items-center gap-4">
+                <button class="theme-toggle" aria-label="Toggle dark mode"></button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="section" style="padding-top: 120px; min-height: 100vh; display: flex; align-items: center;">
+        <div class="container">
+            <div class="grid grid-cols-1 items-center" style="gap: 4rem;">
+                <div class="text-center">
+                    <div class="mb-8">
+                        <img src="{% static 'portfolio/assets/images/profile-new.jpg' %}" 
+                             alt="Matthew Kriel - Senior Software Engineer" 
+                             class="profile-image"
+                             width="300" height="300"
+                             loading="eager"
+                             style="width: 300px; height: 300px; border-radius: 24px; margin: 0 auto; box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25), 0 0 0 1px rgb(255 255 255 / 0.05); transform: perspective(1000px) rotateX(5deg); transition: all 0.3s ease;">
+                    </div>
+                    
+                    <h1 class="text-5xl font-bold mb-4 animate-fade-in-up">
+                        Hi, I'm <span class="text-primary font-bold">Matthew Kriel</span>
+                    </h1>
+                    
+                    <div class="text-2xl text-secondary mb-6 animate-fade-in-up" style="animation-delay: 0.2s; margin-bottom: 3rem;">
+                        <span class="typing-text">Senior Software Engineer</span>
+                        <span class="cursor" style="animation: blink 1s infinite;">|</span>
+                    </div>
+                    
+                    <p class="text-lg text-muted mb-8 leading-relaxed animate-fade-in-up" style="animation-delay: 0.4s; max-width: 600px; margin: 0 auto 3rem auto;">
+                        Senior Software Engineer with over 15 years of experience spanning engineering and technical product management. 
+                        I build reliable systems and write clean, maintainable code.
+                    </p>
+                    
+                    <div class="flex justify-center gap-4 mb-8 animate-fade-in-up" style="animation-delay: 0.6s;">
+                        <a href="https://drive.google.com/drive/folders/1VZuNpEygPZ0v0_WiB4Yt0axBaoXUA5T4" target="_blank" class="btn btn-secondary">
+                            <i class="fas fa-file-alt mr-2"></i>
+                            View Resume
+                        </a>
+                    </div>
+                    
+                    <div class="flex justify-center gap-8 animate-fade-in-up" style="animation-delay: 0.8s;">
+                        <a href="https://github.com/mckriel" target="_blank" class="text-4xl text-muted hover:text-primary transition-colors" style="padding: 0.5rem;">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/mckriel/" target="_blank" class="text-4xl text-muted hover:text-primary transition-colors" style="padding: 0.5rem;">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://instagram.com/mckriel" target="_blank" class="text-4xl text-muted hover:text-primary transition-colors" style="padding: 0.5rem;">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="mt-8">
+                        <p class="text-muted flex items-center justify-center">
+                            <i class="fas fa-map-marker-alt mr-2"></i>
+                            <a href="https://maps.google.com/maps?q=Cape+Town,+South+Africa" target="_blank" class="text-muted hover:text-primary transition-colors">
+                                Cape Town, South Africa
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section bg-secondary">
+        <div class="container">
+            <div class="section-content">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold mb-4">About Me</h2>
+                </div>
+                
+                <div class="grid grid-cols-2 items-start gap-12">
+                    <div>
+                        <div class="text-muted leading-relaxed space-y-4">
+                            <p>
+                                Senior Software Engineer with over 15 years of experience spanning engineering and technical product management. 
+                                I founded and successfully sold a software company, spent several years leading product initiatives, and eventually returned 
+                                full-time to where I'm most at home: building reliable systems and writing clean, maintainable code.
+                            </p>
+                            <p>
+                                I've worked hands-on with REST APIs, distributed services, and data-heavy applications at scale. I thrive in collaborative 
+                                environments, enjoy solving hard backend problems, and still get oddly excited about well-designed database indexes.
+                            </p>
+                            <p>
+                                Outside of work, I'm passionate about Brazilian Jiu Jitsu, photography, hiking, trail running, and World of Warcraft.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <i class="fas fa-code text-primary mr-3 mt-1"></i>
+                                <div>
+                                    <h4 class="font-medium">6+ Years Engineering</h4>
+                                    <p class="text-sm text-muted">Hands-on software development experience</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <i class="fas fa-cogs text-primary mr-3 mt-1"></i>
+                                <div>
+                                    <h4 class="font-medium">10+ Years Product Management</h4>
+                                    <p class="text-sm text-muted">Leading technical product initiatives</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <i class="fas fa-cloud text-primary mr-3 mt-1"></i>
+                                <div>
+                                    <h4 class="font-medium">AWS Certified</h4>
+                                    <p class="text-sm text-muted">Cloud Practitioner (March 2024)</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <i class="fas fa-graduation-cap text-primary mr-3 mt-1"></i>
+                                <div>
+                                    <h4 class="font-medium">University of Cambridge</h4>
+                                    <p class="text-sm text-muted">Diploma in Information Systems Engineering</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <i class="fas fa-globe text-primary mr-3 mt-1"></i>
+                                <div>
+                                    <h4 class="font-medium">Languages</h4>
+                                    <p class="text-sm text-muted">English (Native), Afrikaans (Fluent)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mt-12">
+                    <h4 class="text-lg font-semibold mb-4">Interests & Hobbies</h4>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="badge">Brazilian Jiu Jitsu</span>
+                        <span class="badge">Photography</span>
+                        <span class="badge">Hiking</span>
+                        <span class="badge">Trail Running</span>
+                        <span class="badge">World of Warcraft</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-content">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold mb-4">Technical Skills</h2>
+                </div>
+                
+                <div class="grid grid-cols-3 gap-8">
+                    <div class="card text-center">
+                        <i class="fas fa-server text-4xl text-primary mb-4"></i>
+                        <h3 class="text-xl font-semibold mb-4">Backend Development</h3>
+                        <div class="space-y-2">
+                            <span class="badge">JavaScript</span>
+                            <span class="badge">TypeScript</span>
+                            <span class="badge">Node.js</span>
+                            <span class="badge">Python</span>
+                            <span class="badge">Django</span>
+                            <span class="badge">Go</span>
+                            <span class="badge">Rust</span>
+                            <span class="badge">C#</span>
+                            <span class="badge">.NET</span>
+                        </div>
+                    </div>
+                    
+                    <div class="card text-center">
+                        <i class="fas fa-database text-4xl text-primary mb-4"></i>
+                        <h3 class="text-xl font-semibold mb-4">Databases & Infrastructure</h3>
+                        <div class="space-y-2">
+                            <span class="badge">PostgreSQL</span>
+                            <span class="badge">MySQL</span>
+                            <span class="badge">MongoDB</span>
+                            <span class="badge">Redis</span>
+                            <span class="badge">RabbitMQ</span>
+                            <span class="badge">Elasticsearch</span>
+                            <span class="badge">Docker</span>
+                        </div>
+                    </div>
+                    
+                    <div class="card text-center">
+                        <i class="fas fa-laptop-code text-4xl text-primary mb-4"></i>
+                        <h3 class="text-xl font-semibold mb-4">Frontend & Tools</h3>
+                        <div class="space-y-2">
+                            <span class="badge">React</span>
+                            <span class="badge">Svelte</span>
+                            <span class="badge">HTML/CSS</span>
+                            <span class="badge">Git</span>
+                            <span class="badge">AWS</span>
+                            <span class="badge">Jira</span>
+                            <span class="badge">Asana</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section bg-secondary">
+        <div class="container">
+            <div class="section-content">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold mb-4">Work Experience</h2>
+                </div>
+                
+                <div class="space-y-8">
+                    <!-- Current Role - Stubber -->
+                    <div class="card mb-8">
+                        <div class="flex justify-between items-start mb-8">
+                            <div>
+                                <h3 class="text-xl font-semibold">Senior Software Engineer</h3>
+                                <p class="text-primary font-medium">Stubber</p>
+                                <p class="text-sm text-muted">February 2025 - Present • Hybrid (Cape Town)</p>
+                            </div>
+                            <a href="https://www.stubber.com/" target="_blank" class="text-2xl text-muted hover:text-primary transition-colors">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        
+                        <div class="text-muted mb-4 space-y-4">
+                            <p>
+                                Stubber is an AI-powered automation platform that enables businesses to deploy virtual employees. 
+                                Which are intelligent agents designed to handle repetitive tasks, customer interactions, and complex workflows 
+                                across various channels like WhatsApp, Telegram, Slack, Microsoft Teams, web chat and more.
+                            </p>
+                            <p>
+                                My work at Stubber involves building new features, most recently external messaging interfaces like Telegram, 
+                                Slack and Microsoft Teams. Each integration involved deploying 3 microservices that fully integrate into the 
+                                Stubber platform. I have also built on top of existing features like our Google sheet integration, optimizing 
+                                new and existing LLM models and writing extensive documentation and planning material.
+                            </p>
+                        </div>
+                        
+                        <div class="flex flex-wrap gap-4">
+                            <span class="badge">JavaScript</span>
+                            <span class="badge">Node.js</span>
+                            <span class="badge">PostgreSQL</span>
+                            <span class="badge">MongoDB</span>
+                            <span class="badge">Svelte V4</span>
+                            <span class="badge">RabbitMQ</span>
+                            <span class="badge">Redis</span>
+                            <span class="badge">Elasticsearch</span>
+                            <span class="badge">Portainer</span>
+                            <span class="badge">Docker</span>
+                            <span class="badge">Asana</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Contract Role - Sociable -->
+                    <div class="card mb-8">
+                        <div class="flex justify-between items-start mb-8">
+                            <div>
+                                <h3 class="text-xl font-semibold">Senior Backend Engineer</h3>
+                                <p class="text-primary font-medium">Sociable (Contract)</p>
+                                <p class="text-sm text-muted">December 2024 - Present • Remote - Cape Town</p>
+                            </div>
+                            <a href="https://thesociableapp.com/" target="_blank" class="text-2xl text-muted hover:text-primary transition-colors">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        
+                        <div class="text-muted mb-4 space-y-4">
+                            <p>
+                                Sociable is a community-focused events platform designed to help people connect through shared passions and 
+                                real-world experiences. It allows users to discover nearby events in real time, filter by interest or location, 
+                                and build personalized profiles to engage with others.
+                            </p>
+                            <p>
+                                I recently joined the team at Sociable as a backend engineer. My latest contracted work involved a complete 
+                                migration from JavaScript to TypeScript of the backend services, making UI adjustments to the mobile app 
+                                as well as writing a comprehensive test suite for the platform.
+                            </p>
+                        </div>
+                        
+                        <div class="flex flex-wrap gap-4">
+                            <span class="badge">TypeScript</span>
+                            <span class="badge">Next.js</span>
+                            <span class="badge">MySQL</span>
+                            <span class="badge">React</span>
+                            <span class="badge">MongoDB</span>
+                            <span class="badge">React Native</span>
+                            <span class="badge">Monday</span>
+                        </div>
+                    </div>
+                    
+                    <!-- More roles available in resume data -->
+                    <div class="text-center">
+                        <a href="https://drive.google.com/drive/folders/1VZuNpEygPZ0v0_WiB4Yt0axBaoXUA5T4" target="_blank" class="btn btn-secondary">
+                            <i class="fas fa-file-alt mr-2"></i>
+                            View Full Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-content">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold mb-4">Featured Projects</h2>
+                </div>
+                
+                <div class="grid grid-cols-2 gap-8">
+                    <div class="card project-item flex flex-col">
+                        <div class="mb-6">
+                            <div class="flex justify-between items-start mb-2">
+                                <h3 class="text-xl font-semibold">Pride Fighting Academy</h3>
+                                <div class="flex">
+                                    <a href="https://github.com/mckriel/matthewkriel" target="_blank" class="text-2xl text-muted hover:text-primary transition-colors mr-4">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="https://www.matthewkriel.com/pfa/" target="_blank" class="text-2xl text-muted hover:text-primary transition-colors">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="text-sm text-primary font-medium">Class Schedule PWA</p>
+                            <p class="text-xs text-muted mb-4">June 2024 - Present</p>
+                        </div>
+                        
+                        <p class="text-muted mb-4 flex-grow">
+                            A simple PWA application built in Django on top of my portfolio site. 
+                            Our gym needed something better than screenshots of a spreadsheet and all other solutions cost way too much.
+                        </p>
+                        
+                        <div class="flex flex-wrap mt-auto">
+                            <span class="badge mr-2">Django</span>
+                            <span class="badge mr-2">PWA</span>
+                            <span class="badge mr-2">Python</span>
+                            <span class="badge">JavaScript</span>
+                        </div>
+                    </div>
+                    
+                    <div class="card project-item flex flex-col">
+                        <div class="mb-6">
+                            <div class="flex justify-between items-start mb-2">
+                                <h3 class="text-xl font-semibold">One More Game</h3>
+                                <div class="flex">
+                                    <a href="https://github.com/mckriel/omg-backend" target="_blank" class="text-2xl text-muted hover:text-primary transition-colors mr-4">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="https://onemoregame.app/" target="_blank" class="text-2xl text-muted hover:text-primary transition-colors">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="text-sm text-primary font-medium">World of Warcraft PVE Guild Website</p>
+                            <p class="text-xs text-muted mb-4">June 2024 - Present</p>
+                        </div>
+                        
+                        <p class="text-muted mb-4 flex-grow">
+                            A website I built for my World of Warcraft raiding guild, including a complete overhaul of both the backend and frontend. The project consists of a public-facing website, a backend API, and a MongoDB instance.
+                        </p>
+                        
+                        <div class="flex flex-wrap mt-auto">
+                            <span class="badge mr-2">Javascript</span>
+                            <span class="badge mr-2">MongoDB</span>
+                            <span class="badge">Microservices</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="text-center mt-12">
+                    <a href="https://github.com/mckriel" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-github mr-2"></i>
+                        View More on GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-secondary">
+        <div class="container">
+            <div class="section-content">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold mb-4">Get In Touch</h2>
+                </div>
+                
+                <div class="max-w-md mx-auto">
+                    <p class="text-muted mb-8 text-center">
+                        I'm always interested in hearing about new opportunities, 
+                        interesting projects, and connecting with fellow developers. 
+                        Feel free to reach out!
+                    </p>
+                    
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-center">
+                            <i class="fas fa-envelope text-primary mr-4"></i>
+                            <a href="mailto:mckriel@gmail.com" class="text-muted hover:text-primary transition-colors">
+                                mckriel@gmail.com
+                            </a>
+                        </div>
+                        
+                        <div class="flex items-center justify-center">
+                            <i class="fab fa-linkedin text-primary mr-4"></i>
+                            <a href="https://www.linkedin.com/in/mckriel/" target="_blank" class="text-muted hover:text-primary transition-colors">
+                                linkedin.com/in/mckriel
+                            </a>
+                        </div>
+                        
+                        <div class="flex items-center justify-center">
+                            <i class="fab fa-github text-primary mr-4"></i>
+                            <a href="https://github.com/mckriel" target="_blank" class="text-muted hover:text-primary transition-colors">
+                                github.com/mckriel
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 border-t border-gray-200">
+        <div class="container">
+            <div class="text-center text-muted">
+                <p>&copy; 2025 Matthew Kriel. All rights reserved.</p>
+                <p class="text-sm mt-2">
+                    Built with Django, modern CSS, and lots of ☕
+                </p>
+                <p class="text-sm mt-2">
+                    Cape Town, South Africa
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="{% static 'portfolio/assets/js/modern.js' %}"></script>
+    
+    <style>
+        /* Additional custom styles */
+        .cursor {
+            font-weight: 100;
+            color: var(--color-primary);
+        }
+        
+        @keyframes blink {
+            0%, 50% { opacity: 1; }
+            51%, 100% { opacity: 0; }
+        }
+        
+        .profile-image {
+            transition: all 0.3s ease;
+        }
+        
+        .profile-image:hover {
+            transform: perspective(1000px) rotateX(0deg) scale(1.02);
+            box-shadow: 0 35px 60px -12px rgb(0 0 0 / 0.35), 0 0 0 1px rgb(255 255 255 / 0.1);
+        }
+        
+        .contact-form input,
+        .contact-form textarea {
+            background-color: var(--color-bg-primary);
+            color: var(--color-text-primary);
+            border-color: var(--color-border);
+        }
+        
+        .contact-form input:focus,
+        .contact-form textarea:focus {
+            outline: none;
+            border-color: var(--color-primary);
+            box-shadow: 0 0 0 2px rgb(37 99 235 / 0.2);
+        }
+        
+        .bg-secondary {
+            background-color: var(--color-bg-secondary);
+        }
+        
+        .w-full { width: 100%; }
+        .space-y-2 > * + * { margin-top: var(--space-2); }
+        .space-y-4 > * + * { margin-top: var(--space-4); }
+        .gap-12 { gap: var(--space-12); }
+        .mr-1 { margin-right: var(--space-1); }
+        .mr-2 { margin-right: var(--space-2); }
+        .mr-3 { margin-right: var(--space-3); }
+        .mr-4 { margin-right: var(--space-4); }
+        .mt-2 { margin-top: var(--space-2); }
+        
+        .transition-colors {
+            transition: color var(--transition-fast);
+        }
+    </style>
+</body>
+</html>

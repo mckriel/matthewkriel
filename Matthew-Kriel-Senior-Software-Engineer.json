@@ -1,0 +1,487 @@
+{
+  "basics": {
+    "name": "Matthew Kriel",
+    "headline": "Senior Software Engineer (6 years) | Technical Product Manager (10+ years)",
+    "email": "mckriel@gmail.com",
+    "phone": "",
+    "location": "Cape Town, South Afrtica",
+    "url": {
+      "label": "matthewkriel.com",
+      "href": "https://www.matthewkriel.com/"
+    },
+    "customFields": [],
+    "picture": {
+      "url": "https://storage.rxresu.me/cm5kohr1m57ygdbpogejso63z/pictures/o1zjbzaufhd4rule3weet15n.jpg",
+      "size": 64,
+      "aspectRatio": 1,
+      "borderRadius": 0,
+      "effects": {
+        "hidden": false,
+        "border": false,
+        "grayscale": false
+      }
+    }
+  },
+  "sections": {
+    "summary": {
+      "name": "Summary",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "summary",
+      "content": "<p>Backend-focused Senior Software Engineer with over a decade of experience spanning engineering and technical product management. I founded and successfully sold a software company, spent several years leading product initiatives, and eventually returned full-time to where I’m most at home: building reliable systems and writing clean, maintainable code. </p><p>I’ve worked hands-on with REST APIs, distributed services, and data-heavy applications at scale. I thrive in collaborative environments, enjoy solving hard backend problems, and still get oddly excited about well-designed database indexes.<br><br>Outside of work, I’m passionate about Brazilian Jiu Jitsu, photography, hiking, trail running, and World of Warcraft.<br><br><em>Languages -</em> <strong>JavaScript, TypeScript, Go, Python, Rust, C#, Solidity</strong><br><em>Frameworks &amp; Tools - </em><strong>Node.js, Django, .NET, React, MySQL, PostgreSQL, MongoDB, Redis, RabbitMQ, Elastic, Docker, Git, G-Suite, Slack, Asana, Jira, Notion, Confluence</strong></p>"
+    },
+    "awards": {
+      "name": "Awards",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "awards",
+      "items": []
+    },
+    "certifications": {
+      "name": "Certifications",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "certifications",
+      "items": [
+        {
+          "id": "qmppi4vfvxxbtyeqpfz7y6xi",
+          "visible": true,
+          "name": "AWS Cloud Practitioner",
+          "issuer": "",
+          "date": "March 2024",
+          "summary": "",
+          "url": {
+            "label": "Credly Certification",
+            "href": "https://www.credly.com/badges/22a9ea98-ed75-4644-97ef-2246166b0d3f/public_url"
+          }
+        }
+      ]
+    },
+    "education": {
+      "name": "Education",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "education",
+      "items": [
+        {
+          "id": "hecun4wemq9vajdo276fchso",
+          "visible": true,
+          "institution": "University of Cambridge (Correspondence)",
+          "studyType": "Diploma (NQF 5)",
+          "area": "Information Systems Engineering",
+          "score": "",
+          "date": "2008",
+          "summary": "<p></p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "experience": {
+      "name": "Recent Work Experience",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "experience",
+      "items": [
+        {
+          "id": "e2dunxkzzdck946w6cazirvi",
+          "visible": true,
+          "company": "Stubber",
+          "position": "Senior Software Engineer",
+          "location": "Hybrid (Cape Town)",
+          "date": "February 2025 - Present",
+          "summary": "<p>Stubber is an AI-powered automation platform that enables businesses to deploy virtual employees. Which are intelligent agents designed to handle repetitive tasks, customer interactions, and complex workflows across various channels like WhatsApp, Telegram, Slack, Microsoft Teams, web chat and more.</p><p>My work at Stubber involves building new features, most recently external messaging interfaces like Telegram, Slack and Microsoft Teams. Each integration involved deploying 3 microservices that fully integrate into the Stubber platform. I have also built on top of existing features like our Google sheet integration, optmizing new and existing LLM models and writing extensive documentation and planning material.</p><p>Tech stack: <strong>Javscript, Node.js, Postgres, MongoDB, Svelte V4, RabbitMQ, Redis, Elastic, Portainer, Docker, Asana</strong></p>",
+          "url": {
+            "label": "",
+            "href": "https://www.stubber.com/"
+          }
+        },
+        {
+          "id": "lbi7468m67t9qbpaw8axjap9",
+          "visible": true,
+          "company": "Sociable (Contract)",
+          "position": "Senior Backend Engineer",
+          "location": "Remote - Cape Town",
+          "date": "December 2024 - Present",
+          "summary": "<p>Sociable is a community-focused events platform designed to help people connect through shared passions and real-world experiences. It allows users to discover nearby events in real time, filter by interest or location, and build personalized profiles to engage with others<br><br>I recently joined the team at Sociable as a backend engineer. My latest contracted work involved a complete migration from javascript to typescript of the backend services, making ui adjustments to the mobile app as well as well as writing a comprehensive test suite for the platform.</p><p>Tech stack: <strong>Typescript, Next.js, MySql, React, MongoDB, React Native, Monday</strong></p>",
+          "url": {
+            "label": "",
+            "href": "https://thesociableapp.com/"
+          }
+        }
+      ]
+    },
+    "volunteer": {
+      "name": "Volunteering",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "volunteer",
+      "items": []
+    },
+    "interests": {
+      "name": "Interests & Hobbies",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "interests",
+      "items": [
+        {
+          "id": "pnc4ukjya4yq22upbcslohqa",
+          "visible": true,
+          "name": "Brazilian Jiu Jitsu",
+          "keywords": []
+        },
+        {
+          "id": "oihq3b8v4jc1q0kzj77cs350",
+          "visible": true,
+          "name": "Photography",
+          "keywords": []
+        },
+        {
+          "id": "jglie7lmb7581tqdloxbkf23",
+          "visible": true,
+          "name": "Hiking",
+          "keywords": []
+        },
+        {
+          "id": "e717zdnm0pp3osam8dw3yreq",
+          "visible": true,
+          "name": "Trail Running",
+          "keywords": []
+        },
+        {
+          "id": "httvokbmzekzon1trjucbk9r",
+          "visible": true,
+          "name": "World of Warcraft",
+          "keywords": []
+        }
+      ]
+    },
+    "languages": {
+      "name": "Languages",
+      "columns": 5,
+      "separateLinks": true,
+      "visible": true,
+      "id": "languages",
+      "items": [
+        {
+          "id": "c5vhcu1brtfnq48da310yow4",
+          "visible": true,
+          "name": "English",
+          "description": "",
+          "level": 5
+        },
+        {
+          "id": "evjuvfbxyeylg06of3ginri6",
+          "visible": true,
+          "name": "Afrikaans",
+          "description": "",
+          "level": 4
+        }
+      ]
+    },
+    "profiles": {
+      "name": "Profiles",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "profiles",
+      "items": [
+        {
+          "id": "ef8x84ihopvqu8vk2dqq2b7z",
+          "visible": true,
+          "network": "Github",
+          "username": "Github",
+          "icon": "github",
+          "url": {
+            "label": "",
+            "href": "https://github.com/mckriel"
+          }
+        },
+        {
+          "id": "wkxeiex3zhz3ufmesmxd89b2",
+          "visible": true,
+          "network": "Linkedin",
+          "username": "LinkedIn",
+          "icon": "linkedin",
+          "url": {
+            "label": "",
+            "href": "https://www.linkedin.com/in/mckriel/"
+          }
+        },
+        {
+          "id": "omtrp6lyye2cnnqyhx1l6z5d",
+          "visible": true,
+          "network": "Google Drive",
+          "username": "References",
+          "icon": "googledrive",
+          "url": {
+            "label": "",
+            "href": "https://drive.google.com/drive/folders/1VZuNpEygPZ0v0_WiB4Yt0axBaoXUA5T4"
+          }
+        },
+        {
+          "id": "zfx5upaf2dd5rj143xxl8k8j",
+          "visible": true,
+          "network": "Instagram",
+          "username": "Instagram",
+          "icon": "instagram",
+          "url": {
+            "label": "",
+            "href": "https://www.instagram.com/mckriel/"
+          }
+        }
+      ]
+    },
+    "projects": {
+      "name": "Personal Projects",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "projects",
+      "items": [
+        {
+          "id": "axcey6cwbcmq7mu3l8torzh9",
+          "visible": true,
+          "name": "PFA",
+          "description": "Class Schedule PWA",
+          "date": "June 2024 - Present",
+          "summary": "<p>A simple PWA application built in Django on top of my portfolio site. Our gym needed something better than screenshots of a spreadsheet and all other solutions cost way too much. So I decided to spend a weekend building this simple app for them.</p>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": "https://www.matthewkriel.com/pfa/"
+          }
+        },
+        {
+          "id": "wys3hlp97tfjfjfg1ruyt72n",
+          "visible": true,
+          "name": "One More Game",
+          "description": "World of Warcraft PVE Guild Website",
+          "date": "June 2024 - Present",
+          "summary": "<p>My fellow officer Scott built the website and has been slowly upskilling me on how the platform works. I have been slowly contributing to the site with his guidance and will be focusing on the site more in 2025</p>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": "https://onemoregame.app/"
+          }
+        }
+      ]
+    },
+    "publications": {
+      "name": "Publications",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "publications",
+      "items": []
+    },
+    "references": {
+      "name": "References",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "references",
+      "items": [
+        {
+          "id": "ihnk39i20jfzj8cdzvk3ddnw",
+          "visible": true,
+          "name": "Jason Van Wyk - Sociable",
+          "description": "Chief Executive Officer",
+          "summary": "<p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:jason@thesociableapp.com\">jason@thesociableapp.com</a></p>",
+          "url": {
+            "label": "",
+            "href": "https://www.thesociableapp.com/"
+          }
+        },
+        {
+          "id": "ynwar42li6vprgryyozpcvkb",
+          "visible": true,
+          "name": "Karl Hammerschmidt - MyRunway",
+          "description": "Chief Executive Officer",
+          "summary": "<p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:karl@myrunway.co.za\">karl@myrunway.co.za</a></p>",
+          "url": {
+            "label": "",
+            "href": "https://myrunway.co.za/"
+          }
+        },
+        {
+          "id": "a5w9n55jfhg27rsdtvsm7p5d",
+          "visible": true,
+          "name": "Bernard Myburgh - Invictus Capital",
+          "description": "Chief Strategy Officer",
+          "summary": "<p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:myburgh.bernard@gmail.com\">myburgh.bernard@gmail.com</a></p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "rv6kdgj0j6wtoxy1pro9m5yp",
+          "visible": true,
+          "name": "Roland Reed - Skrmiish",
+          "description": "Chief Product Officer",
+          "summary": "<p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:roland@skrmiish.com\">roland@skrmiish.com</a></p>",
+          "url": {
+            "label": "",
+            "href": "https://www.skrmiish.gg/"
+          }
+        }
+      ]
+    },
+    "skills": {
+      "name": "Skills",
+      "columns": 3,
+      "separateLinks": true,
+      "visible": true,
+      "id": "skills",
+      "items": []
+    },
+    "custom": {
+      "m82ih5ojugearg9ngqpejqwc": {
+        "name": "Custom Section",
+        "columns": 1,
+        "separateLinks": true,
+        "visible": true,
+        "id": "m82ih5ojugearg9ngqpejqwc",
+        "items": []
+      },
+      "u98d9kx3yza553an2pw33e2m": {
+        "name": "Work Experience",
+        "columns": 1,
+        "separateLinks": true,
+        "visible": true,
+        "id": "u98d9kx3yza553an2pw33e2m",
+        "items": [
+          {
+            "id": "wyvhp1da87n8q23tjjezxqu8",
+            "visible": true,
+            "name": "CV Library (Contract - 9 Months)",
+            "description": "Senior Technical Product Manager",
+            "date": "February 2024 - November 2024",
+            "location": "Remote - UK",
+            "summary": "<p>CV-Library is one of the UK's largest independent job boards, offering a comprehensive platform for job seekers and employers alike. With a database exceeding 21 million CVs, it enables employers to connect with a vast pool of talent across various industries and regions.</p><p>Contracted for and successfully led the migration of the company's legacy monolithic platform to a micro-service event-driven architecture. (monthly billing saving of $24,000).</p>",
+            "keywords": [],
+            "url": {
+              "label": "",
+              "href": "https://www.cv-library.co.uk/"
+            }
+          },
+          {
+            "id": "eodc3v52cnmvs8u21qt64v1q",
+            "visible": true,
+            "name": "Skrmiish (Contract - 12 Months)",
+            "description": "Senior Technical Product Manager ",
+            "date": "February 2023 - January 2024",
+            "location": "Hybrid - Cape Town",
+            "summary": "<p>Skrmiish is a mobile play-to-earn platform that enables gamers to earn real cash by completing skill-based challenges in popular AAA titles like Fortnite, Valorant, and Call of Duty: Warzone. Through its unique MoneyMatch system, players compete against their own performance metrics, making it accessible to gamers of all levels.</p><p>Wrote specifications &amp; code that directly led to an increase in User Registrations by 34%, increased Average Entry Value by $1.00 per match (100%) &amp; Increased Games Played Per Day by 50%. Implemented various processes and procedures that increased engineering output by over 50%. Completed 98 engineering tickets.</p><p>- Increased User Registrations by 34%<br>- Increased Average Entry Value by $1.00 per match (100%)<br>- Increased Games Played Per Day by 50%</p><p>Engineering Contributions: <strong>Company Website, Mobile App</strong><br>Technologies: <strong>Typescript, Javascript, C#, MySql, HTML/CSS, Bootstrap</strong><br></p>",
+            "keywords": [],
+            "url": {
+              "label": "",
+              "href": "https://www.skrmiish.gg/"
+            }
+          },
+          {
+            "id": "qhep3r6a643sqryrd3osua4q",
+            "visible": true,
+            "name": "Rebelbots (Contract - 7 Months)",
+            "description": "Technical Product Manager",
+            "date": "June 2022 - December 2022",
+            "location": "Remote - Israel",
+            "summary": "<p>Rebel Bots is a Web3 gaming studio that blends traditional gameplay with blockchain technology to create immersive, play-to-earn experiences. Their flagship title, <em>Xoil Wars</em>, is a sci-fi strategy card battler where players assemble and upgrade robotic teams to compete in PvP battles, earning in-game resources like $XOIL and $RBLS tokens.</p><p>Successfully lead the team to deliver a closed beta version of the game which had a 98.4% positive feedback rate from the testing pool of 800 users. Made various daily coding contributions to the company website and marketplace. Grew userbase by 44% during contracted period.</p><p>Engineering contributions: <strong>Company Website, Coin Marketplace</strong><br>Technologies:<strong> Javascript, MySql, HTML/CSS, Boostrap, Solidity</strong></p>",
+            "keywords": [],
+            "url": {
+              "label": "",
+              "href": "https://www.rebelbots.com/"
+            }
+          },
+          {
+            "id": "c7y0jdh764v7sgi6fof97jyh",
+            "visible": true,
+            "name": "Invictus Capital (Permanent Employment)",
+            "description": "Senior Technical Product Manager",
+            "date": "September 2021 - May 2022",
+            "location": "Hybrid - Cape Town",
+            "summary": "<p>Invictus Capital is a blockchain-based investment platform that democratizes access to alternative assets through tokenized funds. Founded in 2017, the company offers a range of products—including the pioneering Crypto20 index fund—that blend traditional financial structures with decentralized technology.</p><p>Coordinated the migration of all our investor funds from the Ethereum to Polygon network ($250,000,000 AUM), Decreased investor withdrawal rate by 30%, Increased investments into the Yield Vault product by 50%. Various coding contributions to company website.</p><p>Engineering contributions: <strong>Company Website, Mobile App</strong><br>Technologies: <strong>Javascript, MySql, HTML/CSS, Boostrap, Solidity </strong>(very little)</p>",
+            "keywords": [],
+            "url": {
+              "label": "",
+              "href": "https://invictuscapital.com/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "template": "pikachu",
+    "layout": [
+      [
+        [
+          "summary",
+          "experience",
+          "volunteer"
+        ],
+        [
+          "profiles",
+          "education",
+          "certifications",
+          "skills",
+          "awards",
+          "publications",
+          "languages",
+          "projects"
+        ]
+      ],
+      [
+        [
+          "custom.u98d9kx3yza553an2pw33e2m"
+        ],
+        [
+          "interests",
+          "references",
+          "custom.m82ih5ojugearg9ngqpejqwc"
+        ]
+      ]
+    ],
+    "css": {
+      "value": "* {\n\toutline: 1px solid #000;\n\toutline-offset: 4px;\n}",
+      "visible": false
+    },
+    "page": {
+      "margin": 32,
+      "format": "a4",
+      "options": {
+        "breakLine": true,
+        "pageNumbers": true
+      }
+    },
+    "theme": {
+      "background": "#ffffff",
+      "text": "#000000",
+      "primary": "#475569"
+    },
+    "typography": {
+      "font": {
+        "family": "Lato",
+        "subset": "latin",
+        "variants": [
+          "regular"
+        ],
+        "size": 12
+      },
+      "lineHeight": 1.5,
+      "hideIcons": false,
+      "underlineLinks": true
+    },
+    "notes": ""
+  }
+}
