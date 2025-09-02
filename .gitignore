@@ -8,19 +8,20 @@ env/
 .DS_Store
 
 # Ignore database files
+db.sqlite3
+db.json
+db.json.backup
+*.sqlite3
+
+# Ignore log files
+logs/
+*.log
 
 # Ignore IDE or editor-specific files
 .vscode/
 *.pyc
 
-# Ignore log files
-*.log
-
 # Ignore any sensitive or local configuration files
 .env
 idea/
 .sln
-
-
-# db.json
-# db.sqlite3

@@ -1,0 +1,909 @@
+[
+{
+  "model": "pfa.classcategory",
+  "pk": 1,
+  "fields": {
+    "category": "Striking",
+    "created": "2024-05-14T16:56:18.578Z",
+    "updated": "2024-05-14T16:56:18.578Z"
+  }
+},
+{
+  "model": "pfa.classcategory",
+  "pk": 2,
+  "fields": {
+    "category": "Grappling",
+    "created": "2024-05-14T16:56:20.539Z",
+    "updated": "2024-05-14T16:56:20.539Z"
+  }
+},
+{
+  "model": "pfa.classcategory",
+  "pk": 3,
+  "fields": {
+    "category": "Fitness",
+    "created": "2024-05-14T16:56:22.372Z",
+    "updated": "2024-05-14T16:56:22.372Z"
+  }
+},
+{
+  "model": "pfa.classcategory",
+  "pk": 4,
+  "fields": {
+    "category": "Lifestyle",
+    "created": "2024-05-28T09:42:07.136Z",
+    "updated": "2024-06-28T08:31:52.820Z"
+  }
+},
+{
+  "model": "pfa.class",
+  "pk": 1,
+  "fields": {
+    "name": "Brazilian Jiu Jitsu (Gi)",
+    "created": "2024-05-14T16:57:09.585Z",
+    "updated": "2024-06-19T16:55:08.055Z",
+    "deleted": 0,
+    "class_categories": [
+      2
+    ]
+  }
+},
+{
+  "model": "pfa.class",
+  "pk": 2,
+  "fields": {
+    "name": "Brazilian Jiu Jitsu (No Gi)",
+    "created": "2024-05-14T16:57:19.543Z",
+    "updated": "2024-06-19T16:55:31.783Z",
+    "deleted": 0,
+    "class_categories": [
+      2
+    ]
+  }
+},
+{
+  "model": "pfa.class",
+  "pk": 3,
+  "fields": {
+    "name": "Boxing",
+    "created": "2024-05-14T16:57:33.486Z",
+    "updated": "2024-05-14T16:57:33.486Z",
+    "deleted": 0,
+    "class_categories": [
+      1
+    ]
+  }
+},
+{
+  "model": "pfa.class",
+  "pk": 4,
+  "fields": {
+    "name": "Yoga",
+    "created": "2024-05-14T16:57:40.320Z",
+    "updated": "2024-05-14T16:57:40.320Z",
+    "deleted": 0,
+    "class_categories": [
+      3
+    ]
+  }
+},
+{
+  "model": "pfa.class",
+  "pk": 5,
+  "fields": {
+    "name": "Beginners MMA",
+    "created": "2024-05-28T09:40:28.942Z",
+    "updated": "2024-05-28T09:40:28.942Z",
+    "deleted": 0,
+    "class_categories": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "pfa.class",
+  "pk": 6,
+  "fields": {
+    "name": "Kids MMA",
+    "created": "2024-05-28T09:40:36.370Z",
+    "updated": "2024-05-28T09:40:36.370Z",
+    "deleted": 0,
+    "class_categories": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "pfa.class",
+  "pk": 7,
+  "fields": {
+    "name": "Ladies Kickboxing",
+    "created": "2024-05-28T09:40:43.615Z",
+    "updated": "2024-05-28T09:40:43.615Z",
+    "deleted": 0,
+    "class_categories": [
+      1
+    ]
+  }
+},
+{
+  "model": "pfa.class",
+  "pk": 8,
+  "fields": {
+    "name": "Muay Thai",
+    "created": "2024-05-28T09:40:59.996Z",
+    "updated": "2024-05-28T09:40:59.996Z",
+    "deleted": 0,
+    "class_categories": [
+      1
+    ]
+  }
+},
+{
+  "model": "pfa.class",
+  "pk": 9,
+  "fields": {
+    "name": "Wrestling (MMA)",
+    "created": "2024-05-28T09:41:16.766Z",
+    "updated": "2024-05-28T09:41:16.766Z",
+    "deleted": 0,
+    "class_categories": [
+      2
+    ]
+  }
+},
+{
+  "model": "pfa.class",
+  "pk": 10,
+  "fields": {
+    "name": "Kids BJJ",
+    "created": "2024-06-29T10:21:51.335Z",
+    "updated": "2024-06-29T10:48:25.681Z",
+    "deleted": 0,
+    "class_categories": [
+      2
+    ]
+  }
+},
+{
+  "model": "pfa.class",
+  "pk": 11,
+  "fields": {
+    "name": "Beginners BJJ",
+    "created": "2024-06-29T10:22:40.814Z",
+    "updated": "2024-06-29T10:47:49.212Z",
+    "deleted": 0,
+    "class_categories": [
+      2
+    ]
+  }
+},
+{
+  "model": "pfa.class",
+  "pk": 12,
+  "fields": {
+    "name": "Sparring",
+    "created": "2024-06-29T10:25:09.269Z",
+    "updated": "2024-06-29T10:25:09.269Z",
+    "deleted": 0,
+    "class_categories": [
+      1
+    ]
+  }
+},
+{
+  "model": "pfa.class",
+  "pk": 13,
+  "fields": {
+    "name": "Advanced MMA",
+    "created": "2024-06-29T10:28:18.397Z",
+    "updated": "2024-06-29T10:28:18.397Z",
+    "deleted": 0,
+    "class_categories": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "pfa.class",
+  "pk": 14,
+  "fields": {
+    "name": "BJJ Open Mat",
+    "created": "2024-06-29T10:46:34.225Z",
+    "updated": "2024-06-29T10:47:36.824Z",
+    "deleted": 0,
+    "class_categories": [
+      2
+    ]
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 16,
+  "fields": {
+    "training_class": 2,
+    "weekday": "1",
+    "start_time": "17:30:00",
+    "end_time": "19:00:00",
+    "time_span": 90,
+    "created": "2024-05-29T11:19:15.737Z",
+    "updated": "2024-05-29T11:21:20.967Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 17,
+  "fields": {
+    "training_class": 1,
+    "weekday": "1",
+    "start_time": "12:30:00",
+    "end_time": "14:00:00",
+    "time_span": 90,
+    "created": "2024-05-29T11:32:01.123Z",
+    "updated": "2024-05-29T11:32:01.123Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 19,
+  "fields": {
+    "training_class": 3,
+    "weekday": "1",
+    "start_time": "06:00:00",
+    "end_time": "07:00:00",
+    "time_span": 60,
+    "created": "2024-06-19T16:54:20.114Z",
+    "updated": "2024-06-29T10:04:12.145Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 20,
+  "fields": {
+    "training_class": 5,
+    "weekday": "1",
+    "start_time": "06:00:00",
+    "end_time": "07:00:00",
+    "time_span": 60,
+    "created": "2024-06-28T08:46:51.478Z",
+    "updated": "2024-06-29T10:04:27.502Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 21,
+  "fields": {
+    "training_class": 3,
+    "weekday": "1",
+    "start_time": "12:30:00",
+    "end_time": "13:30:00",
+    "time_span": 60,
+    "created": "2024-06-29T10:05:04.854Z",
+    "updated": "2024-06-29T10:05:04.854Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 22,
+  "fields": {
+    "training_class": 6,
+    "weekday": "1",
+    "start_time": "15:30:00",
+    "end_time": "16:15:00",
+    "time_span": 45,
+    "created": "2024-06-29T10:05:23.673Z",
+    "updated": "2024-06-29T10:05:23.673Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 23,
+  "fields": {
+    "training_class": 7,
+    "weekday": "1",
+    "start_time": "16:30:00",
+    "end_time": "17:30:00",
+    "time_span": 60,
+    "created": "2024-06-29T10:05:41.881Z",
+    "updated": "2024-06-29T10:05:41.881Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 24,
+  "fields": {
+    "training_class": 8,
+    "weekday": "1",
+    "start_time": "18:00:00",
+    "end_time": "19:00:00",
+    "time_span": 60,
+    "created": "2024-06-29T10:06:01.319Z",
+    "updated": "2024-06-29T10:06:01.319Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 25,
+  "fields": {
+    "training_class": 3,
+    "weekday": "1",
+    "start_time": "19:00:00",
+    "end_time": "20:00:00",
+    "time_span": 60,
+    "created": "2024-06-29T10:06:15.404Z",
+    "updated": "2024-06-29T10:06:15.404Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 26,
+  "fields": {
+    "training_class": 9,
+    "weekday": "1",
+    "start_time": "19:00:00",
+    "end_time": "20:00:00",
+    "time_span": 60,
+    "created": "2024-06-29T10:06:29.305Z",
+    "updated": "2024-06-29T10:06:29.305Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 27,
+  "fields": {
+    "training_class": 2,
+    "weekday": "2",
+    "start_time": "06:00:00",
+    "end_time": "07:00:00",
+    "time_span": 60,
+    "created": "2024-06-29T10:20:31.297Z",
+    "updated": "2024-06-29T10:20:31.297Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 28,
+  "fields": {
+    "training_class": 8,
+    "weekday": "2",
+    "start_time": "06:00:00",
+    "end_time": "07:00:00",
+    "time_span": 60,
+    "created": "2024-06-29T10:20:47.434Z",
+    "updated": "2024-06-29T10:20:47.434Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 29,
+  "fields": {
+    "training_class": 2,
+    "weekday": "2",
+    "start_time": "12:30:00",
+    "end_time": "14:00:00",
+    "time_span": 90,
+    "created": "2024-06-29T10:21:08.594Z",
+    "updated": "2024-06-29T10:21:08.594Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 30,
+  "fields": {
+    "training_class": 3,
+    "weekday": "2",
+    "start_time": "12:30:00",
+    "end_time": "13:00:00",
+    "time_span": 60,
+    "created": "2024-06-29T10:21:20.912Z",
+    "updated": "2024-06-29T10:21:20.912Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 31,
+  "fields": {
+    "training_class": 10,
+    "weekday": "2",
+    "start_time": "15:30:00",
+    "end_time": "16:15:00",
+    "time_span": 45,
+    "created": "2024-06-29T10:22:17.570Z",
+    "updated": "2024-06-29T10:22:17.570Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 32,
+  "fields": {
+    "training_class": 11,
+    "weekday": "2",
+    "start_time": "16:30:00",
+    "end_time": "17:30:00",
+    "time_span": 60,
+    "created": "2024-06-29T10:23:04.500Z",
+    "updated": "2024-06-29T10:23:04.501Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 33,
+  "fields": {
+    "training_class": 1,
+    "weekday": "2",
+    "start_time": "17:30:00",
+    "end_time": "19:00:00",
+    "time_span": 90,
+    "created": "2024-06-29T10:24:34.517Z",
+    "updated": "2024-06-29T10:24:34.517Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 34,
+  "fields": {
+    "training_class": 3,
+    "weekday": "2",
+    "start_time": "18:00:00",
+    "end_time": "19:00:00",
+    "time_span": 60,
+    "created": "2024-06-29T10:24:52.157Z",
+    "updated": "2024-06-29T10:24:52.157Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 35,
+  "fields": {
+    "training_class": 12,
+    "weekday": "2",
+    "start_time": "19:00:00",
+    "end_time": "20:00:00",
+    "time_span": 60,
+    "created": "2024-06-29T10:25:24.207Z",
+    "updated": "2024-06-29T10:25:24.207Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 36,
+  "fields": {
+    "training_class": 3,
+    "weekday": "3",
+    "start_time": "06:00:00",
+    "end_time": "07:00:00",
+    "time_span": 60,
+    "created": "2024-06-29T10:26:06.337Z",
+    "updated": "2024-06-29T10:26:06.338Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 37,
+  "fields": {
+    "training_class": 5,
+    "weekday": "3",
+    "start_time": "06:00:00",
+    "end_time": "07:00:00",
+    "time_span": 60,
+    "created": "2024-06-29T10:26:23.685Z",
+    "updated": "2024-06-29T10:26:23.685Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 38,
+  "fields": {
+    "training_class": 1,
+    "weekday": "3",
+    "start_time": "12:30:00",
+    "end_time": "14:00:00",
+    "time_span": 90,
+    "created": "2024-06-29T10:26:41.291Z",
+    "updated": "2024-06-29T10:26:41.291Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 39,
+  "fields": {
+    "training_class": 3,
+    "weekday": "3",
+    "start_time": "12:30:00",
+    "end_time": "13:30:00",
+    "time_span": 60,
+    "created": "2024-06-29T10:26:52.454Z",
+    "updated": "2024-06-29T10:26:52.454Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 40,
+  "fields": {
+    "training_class": 6,
+    "weekday": "3",
+    "start_time": "15:30:00",
+    "end_time": "16:15:00",
+    "time_span": 45,
+    "created": "2024-06-29T10:27:03.920Z",
+    "updated": "2024-06-29T10:27:03.920Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 41,
+  "fields": {
+    "training_class": 7,
+    "weekday": "3",
+    "start_time": "16:30:00",
+    "end_time": "17:30:00",
+    "time_span": 60,
+    "created": "2024-06-29T10:27:25.171Z",
+    "updated": "2024-06-29T10:27:25.171Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 42,
+  "fields": {
+    "training_class": 2,
+    "weekday": "3",
+    "start_time": "17:30:00",
+    "end_time": "19:00:00",
+    "time_span": 90,
+    "created": "2024-06-29T10:27:42.891Z",
+    "updated": "2024-06-29T10:27:42.891Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 43,
+  "fields": {
+    "training_class": 8,
+    "weekday": "3",
+    "start_time": "18:00:00",
+    "end_time": "19:00:00",
+    "time_span": 60,
+    "created": "2024-06-29T10:28:01.081Z",
+    "updated": "2024-06-29T10:28:01.081Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 44,
+  "fields": {
+    "training_class": 13,
+    "weekday": "3",
+    "start_time": "19:00:00",
+    "end_time": "20:00:00",
+    "time_span": 60,
+    "created": "2024-06-29T10:28:37.083Z",
+    "updated": "2024-06-29T10:28:37.083Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 45,
+  "fields": {
+    "training_class": 3,
+    "weekday": "3",
+    "start_time": "19:00:00",
+    "end_time": "20:00:00",
+    "time_span": 60,
+    "created": "2024-06-29T10:28:48.587Z",
+    "updated": "2024-06-29T10:28:48.587Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 46,
+  "fields": {
+    "training_class": 8,
+    "weekday": "4",
+    "start_time": "06:00:00",
+    "end_time": "07:00:00",
+    "time_span": 60,
+    "created": "2024-06-29T10:40:13.502Z",
+    "updated": "2024-06-29T10:40:13.502Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 47,
+  "fields": {
+    "training_class": 2,
+    "weekday": "4",
+    "start_time": "06:00:00",
+    "end_time": "07:00:00",
+    "time_span": 60,
+    "created": "2024-06-29T10:40:30.601Z",
+    "updated": "2024-06-29T10:40:30.601Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 48,
+  "fields": {
+    "training_class": 2,
+    "weekday": "4",
+    "start_time": "12:30:00",
+    "end_time": "14:00:00",
+    "time_span": 90,
+    "created": "2024-06-29T10:40:42.900Z",
+    "updated": "2024-06-29T10:40:42.900Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 49,
+  "fields": {
+    "training_class": 3,
+    "weekday": "4",
+    "start_time": "12:30:00",
+    "end_time": "13:30:00",
+    "time_span": 60,
+    "created": "2024-06-29T10:40:57.886Z",
+    "updated": "2024-06-29T10:40:57.886Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 50,
+  "fields": {
+    "training_class": 10,
+    "weekday": "4",
+    "start_time": "15:30:00",
+    "end_time": "16:15:00",
+    "time_span": 45,
+    "created": "2024-06-29T10:41:20.039Z",
+    "updated": "2024-06-29T10:41:20.039Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 51,
+  "fields": {
+    "training_class": 11,
+    "weekday": "4",
+    "start_time": "16:30:00",
+    "end_time": "17:30:00",
+    "time_span": 60,
+    "created": "2024-06-29T10:41:59.998Z",
+    "updated": "2024-06-29T10:41:59.998Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 52,
+  "fields": {
+    "training_class": 1,
+    "weekday": "4",
+    "start_time": "17:30:00",
+    "end_time": "19:00:00",
+    "time_span": 90,
+    "created": "2024-06-29T10:42:19.681Z",
+    "updated": "2024-06-29T10:42:19.681Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 53,
+  "fields": {
+    "training_class": 3,
+    "weekday": "4",
+    "start_time": "18:00:00",
+    "end_time": "19:00:00",
+    "time_span": 60,
+    "created": "2024-06-29T10:42:34.638Z",
+    "updated": "2024-06-29T10:42:34.638Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 54,
+  "fields": {
+    "training_class": 9,
+    "weekday": "4",
+    "start_time": "19:00:00",
+    "end_time": "20:00:00",
+    "time_span": 60,
+    "created": "2024-06-29T10:42:49.858Z",
+    "updated": "2024-06-29T10:42:49.858Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 55,
+  "fields": {
+    "training_class": 13,
+    "weekday": "5",
+    "start_time": "06:00:00",
+    "end_time": "07:00:00",
+    "time_span": 60,
+    "created": "2024-06-29T10:43:16.321Z",
+    "updated": "2024-06-29T10:43:16.321Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 56,
+  "fields": {
+    "training_class": 1,
+    "weekday": "5",
+    "start_time": "12:30:00",
+    "end_time": "14:00:00",
+    "time_span": 90,
+    "created": "2024-06-29T10:43:32.477Z",
+    "updated": "2024-06-29T10:43:32.477Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 57,
+  "fields": {
+    "training_class": 3,
+    "weekday": "5",
+    "start_time": "12:30:00",
+    "end_time": "13:30:00",
+    "time_span": 60,
+    "created": "2024-06-29T10:43:43.274Z",
+    "updated": "2024-06-29T10:43:43.274Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 58,
+  "fields": {
+    "training_class": 2,
+    "weekday": "5",
+    "start_time": "17:30:00",
+    "end_time": "19:00:00",
+    "time_span": 90,
+    "created": "2024-06-29T10:43:57.646Z",
+    "updated": "2024-06-29T10:43:57.646Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 59,
+  "fields": {
+    "training_class": 3,
+    "weekday": "5",
+    "start_time": "18:00:00",
+    "end_time": "19:00:00",
+    "time_span": 60,
+    "created": "2024-06-29T10:44:09.537Z",
+    "updated": "2024-06-29T10:44:09.537Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 60,
+  "fields": {
+    "training_class": 4,
+    "weekday": "6",
+    "start_time": "08:00:00",
+    "end_time": "08:45:00",
+    "time_span": 45,
+    "created": "2024-06-29T10:44:50.757Z",
+    "updated": "2024-06-29T10:44:50.757Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 61,
+  "fields": {
+    "training_class": 8,
+    "weekday": "6",
+    "start_time": "09:00:00",
+    "end_time": "10:00:00",
+    "time_span": 60,
+    "created": "2024-06-29T10:45:05.007Z",
+    "updated": "2024-06-29T10:45:05.007Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 62,
+  "fields": {
+    "training_class": 11,
+    "weekday": "6",
+    "start_time": "09:00:00",
+    "end_time": "10:00:00",
+    "time_span": 60,
+    "created": "2024-06-29T10:45:21.403Z",
+    "updated": "2024-06-29T10:45:21.403Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 63,
+  "fields": {
+    "training_class": 3,
+    "weekday": "6",
+    "start_time": "10:00:00",
+    "end_time": "11:00:00",
+    "time_span": 60,
+    "created": "2024-06-29T10:45:37.304Z",
+    "updated": "2024-06-29T10:45:37.304Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 64,
+  "fields": {
+    "training_class": 12,
+    "weekday": "6",
+    "start_time": "10:00:00",
+    "end_time": "10:45:00",
+    "time_span": 45,
+    "created": "2024-06-29T10:45:53.159Z",
+    "updated": "2024-06-29T10:45:53.159Z",
+    "deleted": 0
+  }
+},
+{
+  "model": "pfa.classinstance",
+  "pk": 65,
+  "fields": {
+    "training_class": 14,
+    "weekday": "6",
+    "start_time": "10:45:00",
+    "end_time": "12:00:00",
+    "time_span": 75,
+    "created": "2024-06-29T10:47:01.498Z",
+    "updated": "2024-06-29T10:47:01.498Z",
+    "deleted": 0
+  }
+}
+]

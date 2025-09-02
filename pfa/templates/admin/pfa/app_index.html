@@ -1,0 +1,160 @@
+{% extends "admin/app_index.html" %}
+{% load admin_urls %}
+
+{% block extrahead %}
+{{ block.super }}
+<style>
+.colMS {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 80vw !important;
+    max-width: 80vw !important;
+}
+
+.schedule-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0.3rem;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.day-column {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    padding: 0.4rem;
+    min-height: 500px;
+    min-width: 120px;
+    box-sizing: border-box;
+}
+
+.day-header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 4px;
+    color: white;
+}
+
+.day-header.monday { background-color: #e74c3c; }
+.day-header.tuesday { background-color: #e67e22; }
+.day-header.wednesday { background-color: #f1c40f; color: #333; }
+.day-header.thursday { background-color: #27ae60; }
+.day-header.friday { background-color: #3498db; }
+.day-header.saturday { background-color: #9b59b6; }
+.day-header.sunday { background-color: #95a5a6; }
+
+.class-tile {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+    text-align: center;
+}
+
+.class-tile:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.class-name {
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+    font-size: 0.9rem;
+}
+
+.class-time {
+    font-family: monospace;
+    font-size: 0.8rem;
+    color: #666;
+    margin-bottom: 0.25rem;
+}
+
+.class-duration {
+    font-size: 0.75rem;
+    color: #888;
+}
+
+.category-tag {
+    display: inline-block;
+    padding: 2px 6px;
+    border-radius: 3px;
+    margin-right: 4px;
+    color: white;
+    font-weight: bold;
+    font-size: 0.7rem;
+}
+
+.category-striking { background-color: #e74c3c; }
+.category-grappling { background-color: #3498db; }
+.category-fitness { background-color: #27ae60; }
+.category-lifestyle { background-color: #f39c12; }
+
+@media (max-width: 1400px) {
+    .schedule-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 1000px) {
+    .schedule-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .schedule-grid {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+{% endblock %}
+
+{% block content %}
+{{ block.super }}
+
+<h2>Weekly Schedule Overview</h2>
+
+<div class="schedule-grid">
+    {% for day_name, day_data in schedule_data.items %}
+    <div class="day-column">
+        <div class="day-header {{ day_name|lower }}">
+            {{ day_name }}
+        </div>
+        
+        {% for class_instance in day_data.classes %}
+        <div class="class-tile" onclick="window.location.href='{% url 'admin:pfa_classinstance_change' class_instance.pk %}'">
+            <div class="class-name" style="color: {% if class_instance.training_class.class_categories.count > 1 %}#8e44ad{% elif class_instance.training_class.class_categories.first.category == 'Striking' %}#e74c3c{% elif class_instance.training_class.class_categories.first.category == 'Grappling' %}#3498db{% elif class_instance.training_class.class_categories.first.category == 'Fitness' %}#27ae60{% else %}#f39c12{% endif %};">
+                {{ class_instance.training_class.name }}
+            </div>
+            
+            <div class="class-time">
+                {{ class_instance.start_time|time:"H:i" }} - {{ class_instance.end_time|time:"H:i" }}
+            </div>
+            
+            <div style="margin-top: 0.25rem;">
+                {% for category in class_instance.training_class.class_categories.all %}
+                <span class="category-tag category-{{ category.category|lower }}">
+                    {{ category.category }}
+                </span>
+                {% endfor %}
+            </div>
+        </div>
+        {% empty %}
+        <div style="text-align: center; color: #999; padding: 2rem; font-style: italic;">
+            No classes
+        </div>
+        {% endfor %}
+    </div>
+    {% endfor %}
+</div>
+
+{% endblock %}
