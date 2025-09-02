@@ -2,21 +2,32 @@ body {
     font-family: "Poppins", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 #id_day_of_week {
     width: 290px;
-    height: 32px;
+    height: 36px;
     text-align: center;
     text-transform: uppercase;
     display: block;
-    font-size: 16px;
-    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
     padding-left: 20px;
-    box-shadow: 0 1px 5px rgb(255 255 255 / 0.3);
-    border-radius: 5px;
-    background-color: rgb(75 85 99);
-    border: 1px solid rgb(241 245 249);;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    background-color: #404040;
+    border: 1px solid #666666;
+    color: rgb(243 244 246);
+    transition: all 0.2s ease;
+}
+
+#id_day_of_week:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3), 0 2px 8px rgba(0, 0, 0, 0.15);
+    border-color: rgb(59 130 246);
 }
 
 .button-group {
@@ -26,24 +37,31 @@ body {
 }
 
 .category-button {
-    flex: 1; /* Each button takes up an equal amount of space */
-    margin: 0 2px; /* Optional: add some space between buttons */
-    padding: 2px; /* Optional: add padding to buttons for better appearance */
+    flex: 1;
+    margin: 0 3px;
+    padding: 8px 4px;
     text-align: center;
-    color: white; /* Customize the text color */
-    border: none; /* Remove default border */
-    border-radius: 5px; /* Optional: add rounded corners */
-    cursor: pointer; /* Change cursor to pointer for better UX */
-    
+    color: rgb(243 244 246);
+    background-color: #404040;
+    border: 1px solid #666666;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    transition: all 0.2s ease;
 }
 
 .category-button:hover {
-    background-color: #2D3748; /* Darken the button color on hover */
+    background-color: #333333;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .category-button.selected {
-    background-color: rgb(75 85 99); /* Color for the selected button */
-    border: 1px solid rgb(241 245 249);
+    background-color: #333333;
+    border: 1px solid #808080;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .fixed-top {
@@ -57,8 +75,8 @@ body {
 
 .scrollable-content {
     position: relative;
-    margin-top: 195px; /* height of the fixed top section */
-    height: calc(100vh - 195px); /* Adjusted to match margin-top */
+    margin-top: 215px; /* increased to account for taller buttons */
+    height: calc(100vh - 215px); /* Adjusted to match margin-top */
     overflow-y: auto;
     z-index: 0; /* Set to 0 to allow proper layering */
     pointer-events: none; /* allows clicks to fall through */
@@ -89,4 +107,106 @@ footer a {
 }
 footer a:hover {
     text-decoration: underline;
+}
+
+/* Enhanced class cards - match category button styling */
+.class-card-enhanced {
+    background-color: #404040 !important;
+    border: 1px solid #666666 !important;
+    border-radius: 6px !important;
+    box-shadow: none !important;
+    transition: all 0.2s ease !important;
+    cursor: pointer;
+}
+
+.class-card-enhanced:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) !important;
+    background-color: #222222 !important;
+}
+
+.class-name-enhanced {
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.5px !important;
+    margin-bottom: 8px !important;
+}
+
+.class-time-enhanced {
+    font-size: 0.875rem !important;
+    font-weight: 400 !important;
+    color: rgb(209 213 219) !important;
+    font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', monospace !important;
+}
+
+/* Class card time buttons - match new color scheme */
+.class-time-button {
+    background-color: #404040 !important;
+    border: 1px solid #666666 !important;
+    border-radius: 6px !important;
+    color: rgb(243 244 246) !important;
+    font-size: 0.5rem !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.2px !important;
+    padding: 3px 6px !important;
+    transition: all 0.2s ease !important;
+    font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', monospace !important;
+    display: inline-block !important;
+    margin: 4px 0 !important;
+}
+
+.class-time-button:hover {
+    background-color: #333333 !important;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Loading indicator styles */
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 26, 26, 0.8);
+    backdrop-filter: blur(4px);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.loading-overlay.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.loading-spinner {
+    width: 40px;
+    height: 40px;
+    border: 3px solid #404040;
+    border-top: 3px solid #ffffff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+.loading-text {
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-top: 16px;
+    text-align: center;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Blur content when loading */
+body.loading .min-w-96 {
+    filter: blur(2px);
+    transition: filter 0.3s ease;
 }

@@ -9,7 +9,7 @@
     <script src="{% static 'pfa/script.js' %}"></script>
 
     <!-- app header section start -->
-    <div class="fixed-top bg-gray-700">
+    <div class="fixed-top" style="background-color: #1a1a1a;">
         <!-- app logo section -->
         <div class="px-10 pt-8 pb-2 flex justify-center">
             <img src="{% static 'pfa/pfa-logo.png' %}" alt="pfa-logo">
@@ -36,7 +36,7 @@
             <div>
                 {% for class in class_list %}
                 <!-- individual class card -->
-                <div class="max-w-xs rounded-md overflow-hidden shadow-md shadow-gray-200/20 bg-gray-600 my-2 min-w-72 max-w-72 border border-gray-200 py-2">
+                <div class="max-w-xs rounded-md overflow-hidden shadow-sm shadow-gray-200/10 my-2 min-w-72 max-w-72 border border-gray-200 py-2" style="background-color: #333333;">
                     <div class="">
                         <p class="text-base text-gray-50 font-medium"> {{class.training_class.name}} </p>
                     </div>
@@ -56,7 +56,7 @@
     </div>
     <!-- app body section end -->
     <!-- app footer section start -->
-    <footer class="fixed bottom-0 left-0 w-full bg-gray-700 text-white text-center py-2 text-xs">
+    <footer class="fixed bottom-0 left-0 w-full text-white text-center py-2 text-xs" style="background-color: #1a1a1a;">
         <p>for the PFA family ❤️</p>
         <p>by <a href="https://www.matthewkriel.com" class="text-blue-400 hover:underline">Matthew Kriel</a></p>
     </footer>
