@@ -29,7 +29,7 @@
       "separateLinks": true,
       "visible": true,
       "id": "summary",
-      "content": "<p>Backend-focused Senior Software Engineer with over a decade of experience spanning engineering and technical product management. I founded and successfully sold a software company, spent several years leading product initiatives, and eventually returned full-time to where I’m most at home: building reliable systems and writing clean, maintainable code. </p><p>I’ve worked hands-on with REST APIs, distributed services, and data-heavy applications at scale. I thrive in collaborative environments, enjoy solving hard backend problems, and still get oddly excited about well-designed database indexes.<br><br>Outside of work, I’m passionate about Brazilian Jiu Jitsu, photography, hiking, trail running, and World of Warcraft.<br><br><em>Languages -</em> <strong>JavaScript, TypeScript, Go, Python, Rust, C#, Solidity</strong><br><em>Frameworks &amp; Tools - </em><strong>Node.js, Django, .NET, React, MySQL, PostgreSQL, MongoDB, Redis, RabbitMQ, Elastic, Docker, Git, G-Suite, Slack, Asana, Jira, Notion, Confluence</strong></p>"
+      "content": "<p><strong>Senior Software Engineer </strong>with over <strong>15 years</strong> of experience spanning engineering and technical product management. I founded and <strong>sold a software company</strong>, spent several years <strong>leading product initiatives</strong>, and eventually returned full-time to where I’m most at home: building <strong>reliable</strong> systems and writing <strong>clean, maintainable code</strong>. </p><p>I thrive in <strong>collaborative environments</strong> and I bring a lot of energy to any team I am in. I enjoy solving hard problems, and still get oddly excited about well-designed databases. I am extremely <strong>passionate</strong> about my work and take a lot of <strong>pride</strong> in delivering the <strong>best possible solution</strong> for any task thrown my way.<br><br>Outside of work, I’m coach <strong>brazilian jiu jitsu</strong>,  honing my <strong>photography</strong> skills, spending weekends away <strong>hiking</strong> with friends, and I am also an officer in my <strong>World of Warcraft</strong> guild where I manage a team of over 25 players.<br><br><em>Languages -</em> <strong>JavaScript, TypeScript, Go, Python, Rust, C#, Solidity</strong><br><em>Frameworks &amp; Tools - </em><strong>Node.js, Django, .NET, React, MySQL, PostgreSQL, MongoDB, Redis, RabbitMQ, Elastic, Docker, Git, G-Suite, Slack, Asana, Jira, Notion, Confluence</strong></p>"
     },
     "awards": {
       "name": "Awards",
@@ -97,7 +97,7 @@
           "position": "Senior Software Engineer",
           "location": "Hybrid (Cape Town)",
           "date": "February 2025 - Present",
-          "summary": "<p>Stubber is an AI-powered automation platform that enables businesses to deploy virtual employees. Which are intelligent agents designed to handle repetitive tasks, customer interactions, and complex workflows across various channels like WhatsApp, Telegram, Slack, Microsoft Teams, web chat and more.</p><p>My work at Stubber involves building new features, most recently external messaging interfaces like Telegram, Slack and Microsoft Teams. Each integration involved deploying 3 microservices that fully integrate into the Stubber platform. I have also built on top of existing features like our Google sheet integration, optmizing new and existing LLM models and writing extensive documentation and planning material.</p><p>Tech stack: <strong>Javscript, Node.js, Postgres, MongoDB, Svelte V4, RabbitMQ, Redis, Elastic, Portainer, Docker, Asana</strong></p>",
+          "summary": "<p>At <strong>Stubber</strong> I build the systems that power our AI automation platform. I work on the Stubber<strong> core </strong>system, the engine that drives the platform, as well as distributed services that extend its capabilities. The systems are complex, fast-moving, and always evolving, which makes the work both challenging and exciting.</p><p>Recent work includes:</p><ul><li><p>Building external messaging integrations for <strong>Telegram, Slack, and Microsoft Teams</strong>, each requiring three new microservices integrated into the platform</p></li><li><p>Extending and improving our <strong>Google Sheets integration</strong></p></li><li><p>Optimizing <strong>LLM pipelines</strong> for performance and reliability</p></li><li><p>Writing documentation and planning material to support scaling and maintainability</p></li></ul><p>Tech stack: <strong>Javscript, Node.js, Postgres, MongoDB, Svelte V4, RabbitMQ, Redis, Elastic, Portainer, Docker, Asana</strong></p>",
           "url": {
             "label": "",
             "href": "https://www.stubber.com/"
@@ -167,7 +167,7 @@
     },
     "languages": {
       "name": "Languages",
-      "columns": 5,
+      "columns": 1,
       "separateLinks": true,
       "visible": true,
       "id": "languages",
@@ -185,12 +185,19 @@
           "name": "Afrikaans",
           "description": "",
           "level": 4
+        },
+        {
+          "id": "rfnmxqhbzzevjcpegpv7k0a2",
+          "visible": true,
+          "name": "German",
+          "description": "",
+          "level": 1
         }
       ]
     },
     "profiles": {
       "name": "Profiles",
-      "columns": 1,
+      "columns": 2,
       "separateLinks": true,
       "visible": true,
       "id": "profiles",
@@ -251,10 +258,10 @@
         {
           "id": "axcey6cwbcmq7mu3l8torzh9",
           "visible": true,
-          "name": "PFA",
-          "description": "Class Schedule PWA",
-          "date": "June 2024 - Present",
-          "summary": "<p>A simple PWA application built in Django on top of my portfolio site. Our gym needed something better than screenshots of a spreadsheet and all other solutions cost way too much. So I decided to spend a weekend building this simple app for them.</p>",
+          "name": "Pride Fighting Academy",
+          "description": "Class Schedule App",
+          "date": "",
+          "summary": "<p>A simple PWA application built in Django on top of my portfolio site. Our gym needed something better than screenshots of a spreadsheet and all other solutions cost way too much so I built something for them.</p>",
           "keywords": [],
           "url": {
             "label": "",
@@ -266,8 +273,8 @@
           "visible": true,
           "name": "One More Game",
           "description": "World of Warcraft PVE Guild Website",
-          "date": "June 2024 - Present",
-          "summary": "<p>My fellow officer Scott built the website and has been slowly upskilling me on how the platform works. I have been slowly contributing to the site with his guidance and will be focusing on the site more in 2025</p>",
+          "date": "",
+          "summary": "<p>A website I built for my World of Warcraft raiding guild, including a complete overhaul of both the backend and frontend. The project consists of a public-facing website, a backend API, and a MongoDB instance.</p>",
           "keywords": [],
           "url": {
             "label": "",
@@ -323,17 +330,6 @@
             "label": "",
             "href": ""
           }
-        },
-        {
-          "id": "rv6kdgj0j6wtoxy1pro9m5yp",
-          "visible": true,
-          "name": "Roland Reed - Skrmiish",
-          "description": "Chief Product Officer",
-          "summary": "<p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:roland@skrmiish.com\">roland@skrmiish.com</a></p>",
-          "url": {
-            "label": "",
-            "href": "https://www.skrmiish.gg/"
-          }
         }
       ]
     },
@@ -347,12 +343,55 @@
     },
     "custom": {
       "m82ih5ojugearg9ngqpejqwc": {
-        "name": "Custom Section",
+        "name": "Personal Projects",
         "columns": 1,
         "separateLinks": true,
         "visible": true,
         "id": "m82ih5ojugearg9ngqpejqwc",
-        "items": []
+        "items": [
+          {
+            "id": "le1rrdiyz88dxrnujo5b29w1",
+            "visible": true,
+            "name": "Brazilian Jiu Jitsu Coach",
+            "description": "Pride Fighting Academy",
+            "date": "",
+            "location": "",
+            "summary": "<p>Since I received my purple belt in November 2024, I have been an assistant coach at PFA. I work with people of all ages and skill ranges but I particularly love coaching people new to the sport. It feels me with great pride helping people overcome personal hardships and making a difference in their lives.</p>",
+            "keywords": [],
+            "url": {
+              "label": "",
+              "href": "https://www.pridefightingacademy.com/"
+            }
+          },
+          {
+            "id": "ucs795s4vwo1l8t27gne5i62",
+            "visible": true,
+            "name": "Popup Event Host & Founder",
+            "description": "Sunsets The Movement",
+            "date": "",
+            "location": "",
+            "summary": "<p>I regularily host free pop up events all over the city of Cape Town and handle all the setup and costs involved. The locations and exact times are a secret, but after I drop a location pin, within an hour there are anywhere between 200 - 400 people at the event.</p>",
+            "keywords": [],
+            "url": {
+              "label": "",
+              "href": "https://instagram.com/sunsetsthemovement"
+            }
+          },
+          {
+            "id": "eawj9dns3btdybxh2e1kjrjw",
+            "visible": true,
+            "name": "Guild Officer",
+            "description": "World of Warcraft",
+            "date": "",
+            "location": "",
+            "summary": "<p>For close to 15 years I have been an officer in various World of Warcraft guilds. It is my job to keep my team of 25 players motivated, focused and to assist them in performing at their very best potential. This involves countless hours of log and character analysis, team co-ordination and conflict resolution. </p>",
+            "keywords": [],
+            "url": {
+              "label": "",
+              "href": "https://www.onemoregame.app/"
+            }
+          }
+        ]
       },
       "u98d9kx3yza553an2pw33e2m": {
         "name": "Work Experience",
@@ -446,9 +485,9 @@
           "custom.u98d9kx3yza553an2pw33e2m"
         ],
         [
+          "custom.m82ih5ojugearg9ngqpejqwc",
           "interests",
-          "references",
-          "custom.m82ih5ojugearg9ngqpejqwc"
+          "references"
         ]
       ]
     ],
