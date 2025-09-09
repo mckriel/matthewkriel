@@ -119,8 +119,9 @@ function init_typing_animation() {
     
     const texts = [
         'Senior Software Engineer',
-        'Senior Backend Engineer', 
-        'Senior Full Stack Engineer'
+        'Photography Enthusiast', 
+        'Jiu Jitsu Practioner',
+        'World of Warcraft Badass'
     ];
     
     let current_text_index = 0;
