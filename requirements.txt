@@ -2,7 +2,7 @@ asgiref==3.9.1
 certifi==2024.12.14
 charset-normalizer==3.4.3
 dj-database-url==3.0.1
-Django==4.2.18
+django>=4.2.25
 gunicorn==23.0.0
 idna==3.10
 packaging==25.0
