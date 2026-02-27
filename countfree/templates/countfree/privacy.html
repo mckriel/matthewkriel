@@ -1,0 +1,300 @@
+{% load static %}
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Privacy Policy — CountFree</title>
+    <meta name="description" content="CountFree privacy policy. We collect zero data.">
+
+    <link rel="icon" type="image/png" href="{% static 'countfree/app-icon.png' %}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg-primary: #0a0a0a;
+            --bg-secondary: #1a1a1a;
+            --bg-tertiary: #2a2a2a;
+            --text-primary: #ffffff;
+            --text-secondary: #cccccc;
+            --text-muted: #999999;
+            --border: #333333;
+            --border-light: #404040;
+            --transition: 0.3s ease-in-out;
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            overflow-x: hidden;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Nav */
+        .nav {
+            padding: 24px 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .nav-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .nav-brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            transition: opacity var(--transition);
+        }
+
+        .nav-brand:hover {
+            opacity: 0.8;
+        }
+
+        .nav-brand img {
+            width: 36px;
+            height: 36px;
+            border-radius: 8px;
+        }
+
+        .nav-brand span {
+            font-size: 1rem;
+            font-weight: 600;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 24px;
+        }
+
+        .nav-links a {
+            font-size: 0.875rem;
+            color: var(--text-muted);
+            transition: color var(--transition);
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: var(--text-primary);
+        }
+
+        /* Page Content */
+        .page-content {
+            max-width: 680px;
+            padding: 64px 0 80px;
+        }
+
+        .page-content h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            margin-bottom: 8px;
+        }
+
+        .page-meta {
+            font-size: 0.875rem;
+            color: var(--text-muted);
+            margin-bottom: 48px;
+            padding-bottom: 48px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .page-content section {
+            margin-bottom: 40px;
+        }
+
+        .page-content h2 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+
+        .page-content p {
+            color: var(--text-secondary);
+            font-size: 0.9375rem;
+            line-height: 1.75;
+            margin-bottom: 12px;
+        }
+
+        .page-content p:last-child {
+            margin-bottom: 0;
+        }
+
+        .page-content a {
+            color: var(--text-primary);
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            transition: color var(--transition);
+        }
+
+        .page-content a:hover {
+            color: var(--text-muted);
+        }
+
+        /* Footer */
+        .footer {
+            padding: 40px 0;
+            border-top: 1px solid var(--border);
+            margin-top: auto;
+        }
+
+        .footer-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .footer-left {
+            font-size: 0.875rem;
+            color: var(--text-muted);
+        }
+
+        .footer-left a {
+            color: var(--text-secondary);
+            transition: color var(--transition);
+        }
+
+        .footer-left a:hover {
+            color: var(--text-primary);
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 24px;
+        }
+
+        .footer-links a {
+            font-size: 0.875rem;
+            color: var(--text-muted);
+            transition: color var(--transition);
+        }
+
+        .footer-links a:hover {
+            color: var(--text-primary);
+        }
+
+        @media (max-width: 768px) {
+            .footer-inner {
+                flex-direction: column;
+                gap: 16px;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Nav -->
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-inner">
+                <a href="{% url 'countfree_landing' %}" class="nav-brand">
+                    <img src="{% static 'countfree/app-icon.png' %}" alt="CountFree">
+                    <span>CountFree</span>
+                </a>
+                <div class="nav-links">
+                    <a href="{% url 'countfree_support' %}">Support</a>
+                    <a href="{% url 'countfree_privacy' %}" class="active">Privacy</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="container">
+        <div class="page-content">
+            <h1>Privacy Policy</h1>
+            <p class="page-meta">Last updated: February 27, 2026</p>
+
+            <section>
+                <h2>Summary</h2>
+                <p>CountFree does not collect, store, or share any personal data. Your countdown data stays on your device.</p>
+            </section>
+
+            <section>
+                <h2>Data Collection</h2>
+                <p>CountFree does not collect any personal information. The app does not require an account, does not use analytics services, and does not contain advertising SDKs.</p>
+                <p>All event data (names, dates, icons, themes) is stored locally on your device using Apple's SwiftData framework and shared with the widget extension via an App Group container. This data never leaves your device.</p>
+            </section>
+
+            <section>
+                <h2>In-App Purchases</h2>
+                <p>CountFree offers optional tips and a supporter subscription through Apple's StoreKit. These transactions are processed entirely by Apple. CountFree does not receive or store any payment information, billing details, or Apple ID data.</p>
+            </section>
+
+            <section>
+                <h2>Third-Party Services</h2>
+                <p>CountFree does not integrate with any third-party analytics, advertising, or tracking services. The app makes no network requests other than those required by Apple for StoreKit transaction processing.</p>
+            </section>
+
+            <section>
+                <h2>Data Sharing</h2>
+                <p>CountFree does not share any data with third parties. There is no data to share.</p>
+            </section>
+
+            <section>
+                <h2>Children's Privacy</h2>
+                <p>CountFree does not knowingly collect any information from anyone, including children under the age of 13.</p>
+            </section>
+
+            <section>
+                <h2>Changes to This Policy</h2>
+                <p>If this privacy policy is updated, the changes will be posted on this page with an updated date. Since CountFree collects no data, meaningful changes are unlikely.</p>
+            </section>
+
+            <section>
+                <h2>Contact</h2>
+                <p>If you have questions about this privacy policy, contact <a href="mailto:mckriel@gmail.com">mckriel@gmail.com</a>.</p>
+            </section>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-left">
+                    Built by <a href="https://www.matthewkriel.com">Matthew Kriel</a>
+                </div>
+                <div class="footer-links">
+                    <a href="{% url 'countfree_support' %}">Support</a>
+                    <a href="{% url 'countfree_privacy' %}">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
